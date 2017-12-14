@@ -26,3 +26,9 @@ body {
         text-align: center;
     }
 }
+
+#logo_fb, #logo_insta {
+    width: 20%;
+    padding-top: 10px;
+}
+
