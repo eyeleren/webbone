@@ -28,7 +28,6 @@ body {
 }
 
 #logo_fb, #logo_insta {
-    width: 20%;
-    padding-top: 10px;
+    height: 100%;
 }
 
