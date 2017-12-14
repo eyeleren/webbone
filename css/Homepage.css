@@ -1,0 +1,28 @@
+body {
+    padding-top:50px;
+}
+
+#contenuti {
+    padding-top: 30px;
+    }
+
+.glyphicon {
+    width: 30px;
+    font-size: 17px;
+}
+
+.navbar-nav li a{
+    padding-bottom: 12.6px;
+}
+
+.navbar-form {
+    width: 300px;
+}
+
+@media (max-width:420px){
+    .mobile-icon{
+        float: left;
+        width: 33%;
+        text-align: center;
+    }
+}
