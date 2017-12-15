@@ -1,0 +1,51 @@
+body {
+    padding-top:50px;
+}
+
+.glyphicon {
+    width: 30px;
+    font-size: 17px;
+}
+
+.navbar-nav li a{
+    padding-bottom: 12.6px;
+}
+
+.navbar-form {
+    width: 300px;
+}
+
+@media (max-width:768px){
+    .mobile-icon{
+        float: left;
+        width: 33%;
+        text-align: center;
+    }
+}
+
+#logo_fb {
+    float: right;
+    display: block;
+    margin-top: 13.4px;
+}
+#logo_insta {
+    display: block;
+    margin-top: 13.4px;
+    float:left;
+}
+@media(max-width:768px){
+    #logo_fb, #logo_insta{
+        float: none;
+    }
+    footer{
+        text-align: center;
+    }
+}
+@media(min-width:768px){
+    .footer-destra{
+        float: right;
+    }
+    .paperino{
+        display: none;
+    }
+}
