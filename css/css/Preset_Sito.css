@@ -49,3 +49,11 @@ body {
         display: none;
     }
 }
+
+#div_fb {
+    border-right: 0px;
+}
+
+#div_insta {
+    border-left: 0px;
+}

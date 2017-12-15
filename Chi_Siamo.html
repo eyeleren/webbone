@@ -1,23 +1,21 @@
 <!doctype html>
-<html lang="it">
-    <head>
+<html>
+<head>
     <!-- Viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Tag Meta-->
     <title>UnivEquo</title>
-    <meta name="description" content="Homepage">
+    <meta name="description" content="Chi_Siamo">
     <meta name="author" content="Gruppone Webbone">
     
     <!-- CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css/Preset_Sito.css" rel="stylesheet">
-    <link href="css/css/Homepage.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
-        
+    <link href="css/css/Chi_Siamo.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">  
 </head>
 <body>
-    
     <!-- Nav Bar -->
 
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -53,7 +51,7 @@
         <li>
             <a href="Social.html">Social</a>   
         </li>
-        <li>
+        <li class="active">
             <a href="Chi_siamo.html">Chi siamo</a>   
         </li>
     </ul>
@@ -89,87 +87,42 @@
         </div><!-- /.container-fluid -->
         
     </nav>
-    <!-- Stampo per le pagine -->
-    
-    <!-- Interiora della pagina -->
-    
-    
-    <!-- CAROUSEL -->
-    <div id="myCarousel" class="carousel slide">
-    <!-- indicatori -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
+
+    <!-- Path -->
+    <ol class="breadcrumb">
+         <li>
+             <a href="Homepage.html">Home</a>
+         </li>
+         <li class="active">Chi Siamo</li>
     </ol>
-    <!-- /indicatori -->
-    <!-- Carousel inner -->
-    <div class="carousel-inner">
-        <div class="item active">
-        <img src= "img/header-bg.png" alt="Welcome">
-        <div class="container">
-            <div class="carousel-caption">
-                <h1>Title 1</h1>
-                <p>Slide 1</p>
+    
+    <!-- Immagine della pagine-->
+    <div>
+    <img src="img/Img_Chi_Siamo2.jpg" class="Img_Chi_Siamo ">
+    </div>
+    
+
+    <!-- Storia della pagina -->
+    <div id="storia" class="container">
+        <div class="row">
+            <div id="invisible" class="col-sm-2"></div>
+            <div class="col-sm-8 ">
+                <p>
+                    Nato come semplice progetto universitario dalla collaborazione di un gruppo di studenti, 
+                    viene successivamente ripreso e migliorato al fine di diventare un punto di riferimento 
+                    per il mondo del commercio equo & solidale. <br> 
+                    Con il proposito di investire e valorizzare le piccole imprese, che altrimenti non riuscirebbero 
+                    a farsi strada nel mercato ormai dominato dalle grandi multinazionali, la Gruppone Wolfone 
+                    Company accoglie sotto il proprio marchio, registrato Wolf&reg, molteplici produttori, così 
+                    da proporli su un mercato ben più ampio. <br>
+                    La Gruppone Wolfone Company garantisce inoltre dal lato consumatore un elevato livello di
+                    qualità, senza perdere di vista i propri doveri, assicurando totale trasparenza e tutela 
+                    nei confronti dei produttori.
+                </p>
             </div>
         </div>
-        </div>
-        <div class="item">
-            <img src="img/header-bg_2.png" alt="Hello">
-            <div class="container">
-            <div class="carousel-caption">
-                <h1>xd 22 </h1>
-                <p>Slide 2</p>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- /Carousel inner -->
-    <!-- Pulsanti -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    <!-- /Pulsanti -->
-    </div>
-
-    <!--------     ------->
-    
-    <div id="contenuti" class="container">
-    <div class="row text-center">
-      <div class="col-sm-5">
-          <p>Qui ci va l'immagine della ricetta del giorno</p>
-      </div>
-      <div class="col-sm-7">
-          <p>Contenuto</p>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col-sm-7">
-          <p>Contenuto</p>
-      </div>
-      <div class="col-sm-5">
-          <p>Qui ci va l'immagine del produttore del mese</p>
-      </div>
-    </div>
-    <div class="row text-center">
-    <div class="col-sm-3">
-          <p>Prodotto più venduto</p>
-      </div>
-      <div class="col-sm-3">
-          <p>Prodotto più venduto</p>
-      </div>
-        <div class="col-sm-3">
-          <p>Prodotto più venduto</p>
-      </div>
-      <div class="col-sm-3">
-          <p>Prodotto più venduto</p>
-      </div>
-    </div>
-    </div>
-
-    
-    
-    <!-- Stampo per le pagine -->
-    <!--- Social Bar --->
+    </div>    
+   <!--- Social Bar --->
     
     <div class="container">
     <div class="row text-center">
@@ -204,12 +157,12 @@
         
         </div>
     </footer>
-    </body>
+
+</body>
     
-    <!-- Script --->
+       <!-- Script --->
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js./holder.js"></script>
-    
 </html>

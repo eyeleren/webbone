@@ -1,0 +1,15 @@
+.Img_Chi_Siamo {
+    height: 500px;
+    width: 80%;
+    display: block;
+    margin:0 auto;
+}
+
+#storia {
+    padding-top: 20px
+}
+
+#invisible {
+   border: 0px;
+   background-color: white;
+}
