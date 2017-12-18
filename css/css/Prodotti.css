@@ -1,0 +1,48 @@
+.bordino {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid;
+    padding-left: 15px;
+}
+
+#bordino2{
+    padding-left: 15px;
+}
+
+#menu_sx {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#list {
+    list-style-type: none;
+    padding-left: 0px;    
+}
+
+.dropdown-toggle {
+    color: black;
+}
+
+#logo-alimenti{
+    background-image: url(../../img/logo_alimenti.jpg);
+}
+
+#logo-abbigliamento{
+    background-image: url(../../img/logo_abbigliamento.jpg)
+}
+
+#logo-cosmesi{
+    background-image: url(../../img/logo_cosmesi.jpg)
+}
+
+#logo-arredamento{
+    background-image: url(../../img/logo_arredamento.jpg)
+}
+
+#invisibile {
+   border: 0px;
+   background-color: transparent;
+}
+.col-sm-4 p{
+    text-align: center:
+}

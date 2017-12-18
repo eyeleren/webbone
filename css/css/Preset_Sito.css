@@ -51,9 +51,16 @@ body {
 }
 
 #div_fb {
+    height: 120px;
     border-right: 0px;
 }
 
 #div_insta {
+    height: 120px;
     border-left: 0px;
+}
+
+#newsletter {
+    height: 120px;
+    padding-top: 0px;
 }
