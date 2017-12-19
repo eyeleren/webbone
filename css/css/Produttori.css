@@ -1,0 +1,40 @@
+#testo {
+    padding-top: 20px
+}
+
+#invisibile {
+   border: 0px;
+   background-color: transparent;
+}
+
+#invisible {
+   border: 0px;
+   background-color: transparent;
+}
+
+.col-sm-4 p{
+    text-align: center:
+}
+
+.col-sm-10 {
+    padding-left: 0px;
+    right: 15px;
+    width: 750px;
+}
+
+.col-sm-4 {
+    ;
+}
+
+#logo-produttore1{
+    background-color: beige;
+}
+#logo-produttore2{
+    background-color: beige;
+}
+#logo-produttore3{
+    background-color: beige;
+}
+#logo-produttore4{
+    background-color: beige;
+}

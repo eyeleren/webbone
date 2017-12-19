@@ -1,0 +1,21 @@
+.img-responsive {
+    position: absolute;
+  left: 50%;
+  margin-left: -335px
+}
+
+#invisibile {
+   border: 0px;
+   background-color: transparent;
+}
+
+#invisible {
+   border: 0px;
+   background-color: transparent;
+}
+
+#testo {
+    padding-top: 250px;
+    
+}
+
