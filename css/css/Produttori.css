@@ -38,3 +38,12 @@
 #logo-produttore4{
     background-color: beige;
 }
+
+.img-responsive {
+    width: 1400px;
+    max-height: 550px;
+}
+
+.breadcrumb {
+    margin-bottom: 5px;
+}
