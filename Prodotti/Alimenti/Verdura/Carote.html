@@ -1,12 +1,278 @@
 <!doctype html>
-<html>
-<head>
+<html lang="it">
+    <head>
+    <!-- Viewport -->
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Tag Meta-->
+    <title>UnivEquo</title>
+    <meta name="description" content="Carota"> <!-- Nome della pagina -->
+    <meta name="author" content="Gruppone Webbone">
+    
+    <!-- CSS -->
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../../css/css/Preset_Sito.css" rel="stylesheet">
+    <link href="../../../css/css/Prodotti.css" rel="stylesheet"> <!-- Foglio css della pagina -->
+    <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
+        
 </head>
 <body>
+    
+    <!-- Nav Bar -->
 
-<h1>ciao sono una carota carotosa</h1>
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <!--  -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+        
+    <!-- Questo è il logo -->
+    <a href="Homepage.html"> <img src="../../../img\logo_unive.jpg" height="50px" width="50px"> </a>
+    </div>
+    
+    <!--  -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+        <li class="active">
+            <a href="Prodotti.html">Prodotti</a>
+        </li>
+        <li>
+            <a href="Produttori.html">Produttori</a>   
+        </li>
+        <li>
+            <a href="Lavora_con_noi.html">Lavora con noi</a>   
+        </li>
+        <li>
+            <a href="Blog.html">Blog</a>   
+        </li>
+        <li>
+            <a href="Social.html">Social</a>   
+        </li>
+        <li>
+            <a href="Chi_siamo.html">Chi siamo</a>   
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">       
+                
+    <!-- MENU DROPDOWN-Search Bar -->
+             
+    <li class="dropdown mobile-icon">
+    <!-- Bottone menu dropdown search bar -->
+    <a idhref="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-search"></i></a>
+    <ul class="dropdown-menu">
+    <form class="navbar-form navbar-left">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    <button type="submit" class="btn btn-default pull-right">Cerca</button>
+    </form>
+    </ul>
+    </li>
 
-</body>
+    <li class="mobile-icon">   
+    <a href="Login.html"><i class="glyphicon glyphicon-user"></i></a> 
+    
+    </li>
+    <li class="mobile-icon">
+    <a href="Carrello.html"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+        
+    </li>
+    </ul>
+    
+        </div><!-- /.navbar-collapse -->
+    
+        </div><!-- /.container-fluid -->
+        
+    </nav>
+    <!-- Stampo per le pagine -->
+    
+    <!-- Path -->
+    <ol class="breadcrumb">
+         <li>
+             <a href="../../../Homepage.html">Home</a>
+         </li>
+         <li>
+             <a href="../../../Prodotti.html">Prodotti</a>
+         </li>
+         <li>
+             <a href="../../../Prodotti/Alimenti/Verdura.html">Verdura</a>
+         </li>
+         <li class="active">Carota</li>
+    </ol>    
+    
+    <!-- Banner -->
+    <div>
+        <img src="../../../img/Prodotti2.jpeg" class="img-responsive">
+    </div>
+    
+    <!-- Cose -->
+    <div class="container">
+        <div class="row">
+            <div id="menu_sx" class="col-sm-3">
+                <ul id="list">
+                <li class="dropdown mobile-icon bordino">
+                    <!-- Bottone menu dropdown -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Alimenti</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../../../Prodotti/Alimenti/Verdura.html">Verdura</a>
+                        </li>
+                            <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Frutta</a>
+                        </li>
+                            <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Tè e Tisane</a>
+                        </li>
+                            <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Cioccolato</a>
+                        </li>
+                            <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Spezie e Condimenti</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown mobile-icon bordino">
+                    <!-- Bottone menu dropdown -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Abbigliamento</a>
+                    <ol class="dropdown-menu">
+                        <li>
+                            <a href="#">Cappelli</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Magliette</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Maglioni</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Pantaloni</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Calzini</a>
+                        </li>
+                    </ol>
+                </li>
+                <li class="dropdown mobile-icon bordino">
+                    <!-- Bottone menu dropdown -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cosmesi</a>
+                    <ol class="dropdown-menu">
+                        <li>
+                            <a href="#">Igiene quotidiana</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="../../../Prodotti/Cosmesi/Capelli.html">Capelli</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Viso</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Corpo</a>
+                        </li>
+                    </ol>
+                </li>
+                <li id="bordino2" class="dropdown mobile-icon">
+                    <!-- Bottone menu dropdown -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Arredamento</a>
+                    <ol class="dropdown-menu">
+                        <li>
+                            <a href="../../../Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Tessuti</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Decorazioni</a>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+            </div>
+            <div class="col-sm-9"> 
+                <h1 style="text-align: center; font-size: 50px;"><strong>CAROTA</strong></h1>
+                  <div id="invisibile" class="col-sm-1"></div>
+              <div id="img-specifica" class="col-sm-4">
+                   <img id="logo-carota" src="../../../img/Carota.jpg">  <!-- QUI CI VA IMMAGINE CAROTA-->
+              </div>
+                  <div id="invisibile" class="col-sm-1 invisibile"></div>
+              <div id="logo-abbigliamento" class="col-sm-5">
+                  <p style="text-align: justify">
+                      La carota (Daucus carota L., 1753) è una pianta erbacea dal fusto di colore verde appartenente alla famiglia delle Apiaceae; 
+                      è anche uno dei più comuni ortaggi, e il suo nome deriva dal greco Karotón. La carota spontanea è diffusa in Europa, in Asia 
+                      e nel Nord Africa. Ne esistono molte e diverse cultivar che sono coltivate in tutte le aree temperate del globo.
+                  </p>
+              </div>
+                <div class="btn" role="group">
+                    <button type="button" class="btn btn-default">Aggiungi al Carrello</button>
+                    <button type="button" class="btn btn-default">Acquista subito</button>
+                </div>
+                <br>
+                <div class="btn pull-center" role="group">
+                    <button type="button" class="btn btn-default">Aggiungi alla lista dei desideri</button>
+                    <button type="button" class="btn btn-default">Aggiungi ai preferiti</button>
+                </div>
+                    
+            </div>
+        </div>    
+    </div>
+    <!--- Social Bar --->
+    <div class="container">
+    <div class="row text-center">
+        <div id="div_fb" class="col-sm-2"> 
+            <a href="https://www.facebook.com/UnivEquo/"> <img class=" center-block" height="70%" id="logo_fb" src="../../../Img/facebook-icon.png"></a>
+        </div>
+        <div id="div_insta" class="col-sm-2">    
+            <a href="https://www.instagram.com/UnivEquo/"><img class="center-block" height=" 70%" id="logo_insta" src="../../../Img/logo_instagram.png"></a>
+
+        </div>
+        <div id="newsletter" class="col-sm-8 align-middle">
+        <h2>Newsletter</h2>
+        <form action="" method="post">
+        <div class="input-prepend">
+        <span class="add-on"><i class="icon-envelope"></i></span>
+               <input type="text" id="" name="" placeholder="your@email.com">
+               <input type="submit" value="Iscriviti ora!" class="btn btn-large" />
+        </div>
+        </form>
+        </div>    
+    </div>
+
+    </div>
+  
+    <!-- Footer -->
+    
+    <footer class="footer">
+        <div  class="container">
+        <p>
+            Sede legale Via Torino Edifizio Z Interno Aula C  <span class="paperino"><br></span><span class="footer-destra">&copy; Powered By Gruppone Wolfone</span>                       
+        </p>
+        
+        </div>
+    </footer>
+    </body>
+    
+    <!-- Script --->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../../js/bootstrap.js"></script>
+    <script src="../../../js./holder.js"></script>
+    
 </html>
