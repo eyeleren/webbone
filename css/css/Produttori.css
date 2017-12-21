@@ -12,6 +12,12 @@
    background-color: transparent;
 }
 
+#invisibile2{
+    height: 100px;
+    border: 0px;
+    background-color: transparent;
+}
+
 .col-sm-4 p{
     text-align: center:
 }
@@ -22,8 +28,10 @@
     width: 750px;
 }
 
-.col-sm-4 {
-    ;
+@media (max-width:780px) {
+    #invisibile2{
+        display: none;
+    }
 }
 
 #logo-produttore1{
