@@ -12,6 +12,7 @@
 #menu_sx {
     padding-left: 0px;
     padding-right: 0px;
+    margin-top: 20px;
 }
 
 #list {
@@ -43,6 +44,7 @@
    border: 0px;
    background-color: transparent;
 }
+
 .col-sm-4 p{
     text-align: center:
 }
@@ -65,15 +67,6 @@
     background-color: transparent;
 }
 
-#logo-carota {
-    width: 100%;   
-}
-
-#img-specifica {
-    padding: 0px;
-    border: 0px;
-}
-
-.btn {
-    pull-right;
+.form-group {
+    text-align: center;
 }

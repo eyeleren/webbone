@@ -1,5 +1,6 @@
 body {
     padding-top:50px;
+    background-color: #ffffe6;
 }
 
 .glyphicon {
@@ -64,3 +65,26 @@ body {
     height: 120px;
     padding-top: 0px;
 }
+
+.breadcrumb {
+    margin-bottom: 0px;
+    background-color: #ffffe6;
+}
+
+.navbar, #social-bar{
+    background-color: #ffffb3 !important;
+}
+
+.navbar-nav > li> a{
+      color: black !important;
+}
+
+.navbar-nav > .active > a{
+      background-color:  #e6e600 !important;
+}
+
+[class*="col-"]{
+    background-color: transparent !important;
+}
+
+

@@ -1,3 +1,37 @@
 #contenuti {
     padding-top: 30px;
     }
+
+#logo_carota {
+    width: 100%;
+}
+
+#img-specifica {
+    padding: 0px;
+    border: 0px;
+}
+
+#descrizione {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border: 0px;
+    height: 100%
+}
+
+#carotitolo{
+    color:  #ff1a1a;
+}
+
+#stessa-altezza{
+    border-bottom: 3px dotted;
+    padding-bottom: 20px
+}
+
+.navbar{
+    background-color: #ffffb3;
+}
+
+.navbar-nav > li> a{
+      color: black !important;
+}

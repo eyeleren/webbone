@@ -105,20 +105,18 @@
     <!-- Carousel inner -->
     <div class="carousel-inner">
         <div class="item active">
-        <img src= "img/header-bg.png" alt="Welcome">
+        <img id="caroimage" src= "img/carosello1.jpg" alt="Buone Feste da UnivEquo">
         <div class="container">
             <div class="carousel-caption">
-                <h1>Title 1</h1>
-                <p>Slide 1</p>
+                <h1 id="carotitolo"><strong>Buone Feste da UnivEquo</strong></h1>
             </div>
         </div>
         </div>
         <div class="item">
-            <img src="img/header-bg_2.png" alt="Hello">
+            <img src="img/carosello2.jpg" alt="Hello">
             <div class="container">
             <div class="carousel-caption">
-                <h1>xd 22 </h1>
-                <p>Slide 2</p>
+                <h1><strong>Dalle nostre mani alle vostre case</strong></h1>
             </div>
         </div>
         </div>
@@ -134,34 +132,53 @@
     <!--------     ------->
     
     <div id="contenuti" class="container">
-    <div class="row text-center">
-      <div class="col-sm-5">
-          <p>Qui ci va l'immagine della ricetta del giorno</p>
+    <div id="stessa-altezza" class="row text-justify">
+      <div id="img-specifica" class="col-sm-5">
+          <img id="logo_carota" src="img/Risotto_Carota1.jpg">
       </div>
-      <div class="col-sm-7">
-          <p>Contenuto</p>
+      <div id="descrizione" class="col-sm-7 colsa">
+          <h2 style="text-align: center">Ricetta del giorno</h2>
+          <p>Il risotto alle carote è un primo piatto goloso, leggero e delicato che ho preparato per uno dei miei pranzi. <br>
+              Vi assicuro è ottimo e volete sapere perchè? Perchè le carote, come la zucca, sono molto dolci e conferiscono 
+              al piatto finito un sapore davvero particolare. <br>Come tutti i risotti, la preparazione richiede l’utilizzo di 
+              un brodo vegetale, ma se volete che il vostro risotto risulti ancora più leggero basterà utilizzare della semplice acqua.</p>
+      </div>
+        
+    </div>
+    <div id="stessa-altezza" class="row text-justify">
+      <div id="descrizione" class="col-sm-7 colsa">
+          <h2 style="text-align: center">Produttore del mese</h2>
+          <p>Il risotto alle carote è un primo piatto goloso, leggero e delicato che ho preparato per uno dei miei pranzi. <br>
+              Vi assicuro è ottimo e volete sapere perchè? Perchè le carote, come la zucca, sono molto dolci e conferiscono 
+              al piatto finito un sapore davvero particolare. <br>Come tutti i risotti, la preparazione richiede l’utilizzo di 
+              un brodo vegetale, ma se volete che il vostro risotto risulti ancora più leggero basterà utilizzare della semplice acqua.</p>
+      </div>
+      <div id="img-specifica" class="col-sm-5">
+          <img id="logo_carota" src="img/produttore.jpg">
       </div>
     </div>
+        
+    <!-- I prodotti più venduti--> 
     <div class="row text-center">
-      <div class="col-sm-7">
-          <p>Contenuto</p>
-      </div>
-      <div class="col-sm-5">
-          <p>Qui ci va l'immagine del produttore del mese</p>
-      </div>
-    </div>
-    <div class="row text-center">
+        <div>
+            <h1>Best Sellers</h1>
+        </div>
     <div class="col-sm-3">
-          <p>Prodotto più venduto</p>
+        <p>Carota del Perù</p>
+          <a href="Prodotti/Alimenti/Verdura/Carote.html"><img id="logo_carota" src="img/Carota.jpg"></a>
+        
       </div>
       <div class="col-sm-3">
-          <p>Prodotto più venduto</p>
+          <p>T-Shirt dal Congo</p>
+          <a href="Prodotti/Alimenti/Verdura/Carote.html"><img id="logo_carota" src="img/Carota.jpg"></a>
       </div>
         <div class="col-sm-3">
-          <p>Prodotto più venduto</p>
+          <p>Shampoo dall'Egitto</p>
+          <a href="Prodotti/Alimenti/Verdura/Carote.html"><img id="logo_carota" src="img/Carota.jpg"></a>
       </div>
       <div class="col-sm-3">
-          <p>Prodotto più venduto</p>
+          <p>Set di posate dal Nord Corea</p>
+          <a href="Prodotti/Alimenti/Verdura/Carote.html"><img id="logo_carota" src="img/Carota.jpg"></a>
       </div>
     </div>
     </div>
@@ -172,7 +189,7 @@
     <!--- Social Bar --->
     
     <div class="container">
-    <div class="row text-center">
+    <div id="social-bar" class="row text-center">
         <div id="div_fb" class="col-sm-2"> 
             <a href="https://www.facebook.com/UnivEquo/"> <img class=" center-block" height="70%" id="logo_fb" src="Img/facebook-icon.png"></a>
         </div>

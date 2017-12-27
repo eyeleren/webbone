@@ -1,0 +1,40 @@
+.bordino {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid;
+    padding-left: 15px;
+}
+
+#bordino2{
+    padding-left: 15px;
+}
+
+#menu_sx {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#list {
+    list-style-type: none;
+    padding-left: 0px;    
+}
+
+#logo-carota {
+    width: 100%;   
+}
+
+#img-specifica {
+    padding: 0px;
+    border: 0px;
+}
+
+#invisibile {
+   border: 0px;
+   background-color: transparent;
+}
+
+#invisibile2{
+    height: 100px;
+    border: 0px;
+    background-color: transparent;
+}
