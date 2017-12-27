@@ -28,10 +28,3 @@
     padding-bottom: 20px
 }
 
-.navbar{
-    background-color: #ffffb3;
-}
-
-.navbar-nav > li> a{
-      color: black !important;
-}
