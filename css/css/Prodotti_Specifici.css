@@ -38,3 +38,7 @@
     border: 0px;
     background-color: transparent;
 }
+
+.checked {
+    color: gold;
+}
