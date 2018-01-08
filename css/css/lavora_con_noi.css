@@ -1,5 +1,7 @@
 .img-responsive {
- 
+    position: absolute;
+  left: 50%;
+  margin-left: -335px
 }
 
 #invisibile {
