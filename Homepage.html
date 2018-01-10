@@ -13,6 +13,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css/Preset_Sito.css" rel="stylesheet">
     <link href="css/css/Homepage.css" rel="stylesheet">
+    <link href="css/css/Modal_Form.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
         
 </head>
@@ -75,7 +76,7 @@
     </li>
 
     <li class="mobile-icon">   
-    <a href="Login.html"><i class="glyphicon glyphicon-user"></i></a> 
+    <a data-toggle="modal" data-target="#Form"><i class="glyphicon glyphicon-user"></i></a> 
     
     </li>
     <li class="mobile-icon">
@@ -184,6 +185,25 @@
     </div>
 
     
+    <!-- Form per il Login -->
+    
+    
+    <div id="Form" class="modal fade" tabindex="-1" role="dialog"aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<legend>Accedi al tuo Account</legend><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="Registrazione.html">Registrati</a> - <a href="#">Password Dimentica</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
     
     <!-- Stampo per le pagine -->
     <!--- Social Bar --->
