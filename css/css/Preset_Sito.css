@@ -87,7 +87,10 @@ body {
     background-color: transparent !important;
 }
 
-/*css per il from*/
+.img-responsive{
+    padding-bottom: 5%;
+}
+/*css per il form*/
 
 .loginmodal-container {
   padding: 30px;
