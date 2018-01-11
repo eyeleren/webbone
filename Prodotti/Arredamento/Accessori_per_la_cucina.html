@@ -69,13 +69,13 @@
         <div class="form-group">
             <input type="text" class="form-control" placeholder="Search">
         </div>
-    <a href="Search-pro.html"><button type="button" class="btn btn-default pull-right">Cerca</button></a>
+    <a href="../../Search-pro.html"><button type="button" class="btn btn-default pull-right">Cerca</button></a>
     </form>
     </ul>
     </li>
 
     <li class="mobile-icon">   
-    <a href="../../Login.html"><i class="glyphicon glyphicon-user"></i></a> 
+    <a data-toggle="modal" data-target="#Login"><i class="glyphicon glyphicon-user"></i></a> 
     
     </li>
     <li class="mobile-icon">
@@ -121,7 +121,7 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Alimenti</a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="../Prodotti/Alimenti/Verdura.html">Verdura</a>
+                            <a href="../../Prodotti/Alimenti/Verdura.html">Verdura</a>
                         </li>
                             <li role="separator" class="divider"></li>
                         <li>
@@ -151,7 +151,7 @@
                         </li>
                         <li role="separator" class="divider"></li>
                         <li>
-                            <a href="../Prodotti/Abbigliamento/Magliette.html">Magliette</a>
+                            <a href="../../Prodotti/Abbigliamento/Magliette.html">Magliette</a>
                         </li>
                         <li role="separator" class="divider"></li>
                         <li>
@@ -176,7 +176,7 @@
                         </li>
                         <li role="separator" class="divider"></li>
                         <li>
-                            <a href="../Prodotti/Cosmesi/Capelli.html">Capelli</a>
+                            <a href="../../Prodotti/Cosmesi/Capelli.html">Capelli</a>
                         </li>
                         <li role="separator" class="divider"></li>
                         <li>
@@ -193,7 +193,7 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Arredamento</a>
                     <ol class="dropdown-menu">
                         <li>
-                            <a href="../Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
+                            <a href="../../Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
                         </li>
                         <li role="separator" class="divider"></li>
                         <li>
@@ -212,7 +212,7 @@
                 
             <div id="invisibile" class="col-sm-1"></div>
             <div id="logo-alimenti" class="col-sm-4">
-                <p style="text-align: center"><a href="../../Prodotti/Arredamento/Accessori_per_la_cucina/Posate.html">Posate</a></p>
+                <p style="text-align: center"><a href="../../Prodotti/Arredamento/Accessori_per_la_cucina/Set-di-posate.html">Posate</a></p>
             </div>
                 <div id="invisibile" class="col-sm-2 invisibile"></div>
             <div id="logo-abbigliamento" class="col-sm-4">
@@ -257,6 +257,25 @@
 
     </div>
   
+    <!-- Form per il Login -->
+    
+    
+    <div id="Login" class="modal fade" tabindex="-1" role="dialog"aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<legend>Accedi al tuo Account</legend><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="../../Registrazione.html">Registrati</a> - <a href="#">Password Dimentica</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
     <!-- Footer -->
     
     <footer class="footer">
