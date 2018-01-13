@@ -1,55 +1,33 @@
-#testo {
-    padding-top: 20px
+#contenuto {
+    border: 2px solid;
+    margin-bottom: 30px;
 }
 
-#invisibile {
-   border: 0px;
-   background-color: transparent;
+#descrizione {
+    border-bottom: 2px solid;
 }
 
-#invisible {
-   border: 0px;
-   background-color: transparent;
-}
-
-#invisibile2{
-    height: 100px;
+#produttori {
     border: 0px;
-    background-color: transparent;
 }
 
-.col-sm-4 p{
+.outer{
+    border: 0px !important;
     text-align: center;
+    font-size: 20px;
 }
 
-.col-sm-10 {
-    padding-left: 0;
-    right: 15px;
-    width: 750px;
-}
-
-@media (max-width:780px) {
-    #invisibile2{
-        display: none;
-    }
-}
-
-#logo-produttore1{
-    background-color: beige;
-}
-#logo-produttore2{
-    background-color: beige;
-}
-#logo-produttore3{
-    background-color: beige;
-}
-#logo-produttore4{
-    background-color: beige;
-}
-
-.img-responsive {
+.cont-int {
+    padding-top: 16px;
+    border: 1px solid;
+    width: 80%;
+    height: 60px;
+    margin: auto;
 }
 
 .breadcrumb {
     margin-bottom: 5px;
 }
+
+
+/* media query mobile first*/

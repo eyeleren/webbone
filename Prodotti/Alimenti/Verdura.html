@@ -10,9 +10,9 @@
     <meta name="author" content="Gruppone Webbone">
     
     <!-- CSS -->
-    <link href="../../css/bootstrap.css" rel="stylesheet">
-    <link href="../../css/css/Preset_Sito.css" rel="stylesheet">
-    <link href="../../css/css/Prodotti.css" rel="stylesheet"> <!-- Foglio css della pagina -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/css/Preset_Sito.css" rel="stylesheet">
+    <link href="/css/css/Prodotti.css" rel="stylesheet"> <!-- Foglio css della pagina -->
     <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
         
 </head>
@@ -114,122 +114,117 @@
     
     <div class="container">
         <div class="row">
-            <div id="menu_sx" class="col-sm-3">
-                <ul id="list">
-                <li class="dropdown mobile-icon bordino">
-                    <!-- Bottone menu dropdown -->
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Alimenti</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="../../Prodotti/Alimenti/Verdura.html">Verdura</a>
+            <div id="menu_sx" class="col-sm-2">
+                    
+            <button class="accordion">Alimenti</button>
+                <div class="panel">
+                    <ul id="list">
+                        <li class="sottomenu">
+                            <a href="/Prodotti/Alimenti/Verdura.html">Verdura</a>
                         </li>
-                            <li role="separator" class="divider"></li>
-                        <li>
+            
+                        <li class="sottomenu">
                             <a href="#">Frutta</a>
                         </li>
-                            <li role="separator" class="divider"></li>
-                        <li>
+            
+                        <li class="sottomenu">
                             <a href="#">Tè e Tisane</a>
                         </li>
-                            <li role="separator" class="divider"></li>
-                        <li>
+            
+                        <li class="sottomenu">
                             <a href="#">Cioccolato</a>
                         </li>
-                            <li role="separator" class="divider"></li>
-                        <li>
+                        
+                        <li class="sottomenu">
                             <a href="#">Spezie e Condimenti</a>
                         </li>
                     </ul>
-                </li>
+                </div>
                 
-                <li class="dropdown mobile-icon bordino">
-                    <!-- Bottone menu dropdown -->
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Abbigliamento</a>
-                    <ol class="dropdown-menu">
-                        <li>
-                            <a href="#">Cappelli</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="../../Prodotti/Abbigliamento/Magliette.html">Magliette</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Maglioni</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Pantaloni</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Calzini</a>
-                        </li>
-                    </ol>
-                </li>
-                <li class="dropdown mobile-icon bordino">
-                    <!-- Bottone menu dropdown -->
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cosmesi</a>
-                    <ol class="dropdown-menu">
-                        <li>
-                            <a href="#">igiene quotidiana</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="../../Prodotti/Cosmesi/Capelli.html">Capelli</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Viso</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Corpo</a>
-                        </li>
-                    </ol>
-                </li>
-                <li id="bordino2" class="dropdown mobile-icon">
-                    <!-- Bottone menu dropdown -->
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Arredamento</a>
-                    <ol class="dropdown-menu">
-                        <li>
-                            <a href="../../Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Tessuti</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Decorazioni</a>
-                        </li>
-                    </ol>
-                </li>
-            </ul>
-            </div>
-            <div class="col-sm-9">
-           
+            <button class="accordion">Abbigliamento</button>
+                <div class="panel">
+                    <ul id="list">
+                         <li class="sottomenu">
+                             <a href="#">Cappelli</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="/Prodotti/Abbigliamento/Magliette.html">Magliette</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Maglioni</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Pantaloni</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Calzini</a>
+                         </li>
+                     </ul>
+                </div>
                 
-            <div id="invisibile" class="col-sm-1"></div>
-            <div id="logo-alimenti" class="col-sm-4">
-                <p style="text-align: center"><a href="../../Prodotti/Alimenti/Verdura/Carote.html">Carote</a></p>
+             <button class="accordion">Cosmesi</button>
+                 <div class="panel">
+                     <ul id="list">
+                         <li class="sottomenu">
+                              <a href="/Prodotti/Cosmesi/Capelli.html">Capelli</a>
+                          </li>
+
+                          <li class="sottomenu">
+                              <a href="#">Igiene quotidiana</a>
+                          </li>
+
+                          <li class="sottomenu">
+                              <a href="#">Viso</a>
+                          </li>
+
+                          <li class="sottomenu">
+                              <a href="#">Corpo</a>
+                          </li>
+                     </ul>
+                </div>
+                
+             <button class="accordion">Arredamento</button>
+                 <div class="panel">
+                     <ul id="list">
+                         <li class="sottomenu">
+                             <a href="/Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Tessuti</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Decorazioni</a>
+                    </ul>
+                </div>
             </div>
-                <div id="invisibile" class="col-sm-2 invisibile"></div>
-            <div id="logo-abbigliamento" class="col-sm-4">
-                <p style="text-align: center"><a href="#">Radicchio</a></p>
-            </div>
-                <div id="invisibile2" class="col-sm-1"></div>
-            <div id="invisibile" class="col-sm-1"></div>
-            <div id="logo-cosmesi" class="col-sm-4">
-                <p style="text-align: center"><a href="#">Cavolfiore</a></p>
-            </div>
-                <div id="invisibile" class="col-sm-2 invisibile"></div>
-            <div id="logo-arredamento" class="col-sm-4">
-                <p style="text-align: center"><a href="#">Zucchine</a></p>
-            </div>
-                <div id="invisibile" class="col-sm-1 invisibile"></div>
             
-            
+            <div id="contenuti" class="col-sm-9">
+                <div class="col-sm-6 outer" >
+                    <div class="cont-int">
+                        <p><a href="/Prodotti/Alimenti/Verdura/Carote.html">Carota</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 outer">
+                    <div class="cont-int">
+                        <p><a href="#">Radicchio</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 outer">
+                    <div class="cont-int2">
+                        <p><a href="#">Cavolfiore</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 outer">
+                    <div class="cont-int2">
+                        <p><a href="#">Zucchine</a></p>
+                    </div>
+                </div>
             </div>
         </div>    
     </div>
@@ -293,5 +288,21 @@
     
     <script src="../../js/jquery.min.js"></script>
     <script src="../../js/bootstrap.js"></script>
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active-menusx");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+        }
+    </script>
 
 </html>
