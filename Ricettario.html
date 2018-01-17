@@ -12,7 +12,7 @@
     <!-- CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css/Preset_Sito.css" rel="stylesheet">
-    <link href="css/css/Prodotti.css" rel="stylesheet"> <!-- Foglio css della pagina -->
+    <link href="css/css/Ricettario.css" rel="stylesheet"> <!-- Foglio css della pagina -->
     <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
         
 </head>
@@ -96,128 +96,78 @@
          <li>
              <a href="Homepage.html">Home</a>
          </li>
-         <li class="active">Prodotti</li>
+         <li class="active">Ricettario</li>
     </ol>    
     
     <!-- Banner -->
     <div>
-        <img src="img/Prodotti2.jpeg" class="img-responsive">
+        <img src="img/Ricettario.jpeg" class="img-responsive">
     </div>
     
     <!-- Cose -->
     
     <div class="container">
         <div class="row">
-            
-            <div id="menu_sx" class="col-sm-2">
-                    
-            <button class="accordion">Alimenti</button>
-                <div class="panel">
-                    <ul id="list">
-                        <li class="sottomenu">
-                            <a href="/Prodotti/Alimenti/Verdura.html">Verdura</a>
-                        </li>
-            
-                        <li class="sottomenu">
-                            <a href="#">Frutta</a>
-                        </li>
-            
-                        <li class="sottomenu">
-                            <a href="#">Tè e Tisane</a>
-                        </li>
-            
-                        <li class="sottomenu">
-                            <a href="#">Cioccolato</a>
-                        </li>
-                        
-                        <li class="sottomenu">
-                            <a href="#">Spezie e Condimenti</a>
-                        </li>
-                    </ul>
-                </div>
-                
-            <button class="accordion">Abbigliamento</button>
-                <div class="panel">
-                    <ul id="list">
-                         <li class="sottomenu">
-                             <a href="#">Cappelli</a>
-                         </li>
-
-                         <li class="sottomenu">
-                             <a href="/Prodotti/Abbigliamento/Magliette.html">Magliette</a>
-                         </li>
-
-                         <li class="sottomenu">
-                             <a href="#">Maglioni</a>
-                         </li>
-
-                         <li class="sottomenu">
-                             <a href="#">Pantaloni</a>
-                         </li>
-
-                         <li class="sottomenu">
-                             <a href="#">Calzini</a>
-                         </li>
-                     </ul>
-                </div>
-                
-             <button class="accordion">Cosmesi</button>
-                 <div class="panel">
-                     <ul id="list">
-                         <li class="sottomenu">
-                              <a href="/Prodotti/Cosmesi/Capelli.html">Capelli</a>
-                          </li>
-
-                          <li class="sottomenu">
-                              <a href="#">Igiene quotidiana</a>
-                          </li>
-
-                          <li class="sottomenu">
-                              <a href="#">Viso</a>
-                          </li>
-
-                          <li class="sottomenu">
-                              <a href="#">Corpo</a>
-                          </li>
-                     </ul>
-                </div>
-                
-             <button class="accordion">Arredamento</button>
-                 <div class="panel">
-                     <ul id="list">
-                         <li class="sottomenu">
-                             <a href="/Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
-                         </li>
-
-                         <li class="sottomenu">
-                             <a href="#">Tessuti</a>
-                         </li>
-
-                         <li class="sottomenu">
-                             <a href="#">Decorazioni</a>
-                    </ul>
+            <div class="col-sm-2">
+                <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')">Mostra tutto</button>
+                    <button class="btn" onclick="filterSelection('antipasti')">Antipasti</button>
+                    <button class="btn" onclick="filterSelection('primi')">Primi</button>
+                    <button class="btn" onclick="filterSelection('secondi')">Secondi</button>
+                    <button class="btn" onclick="filterSelection('dolci')">Dolci</button>
+                    <button class="btn" onclick="filterSelection('veganok')">Vegan Ok</button>
+                    <button class="btn" onclick="filterSelection('glutine')">Glutin Free</button>
                 </div>
             </div>
-            
+                
             <div id="contenuti" class="col-sm-9">
-                <div class="col-sm-6 outer" >
+            
+                <div class="col-sm-6 outer primi veganok glutine" >
                     <div class="cont-int">
-                        <p><a href="Prodotti/Alimenti.html">Alimenti</a></p>
+                        <p><a href="Ricettario/Risottocarote.html">Risotto di Carote</a></p>
+                        <img class="img-ricetta" src="img/Risotto_Carota1.jpg">
                     </div>
                 </div>
-                <div class="col-sm-6 outer">
+                <div class="col-sm-6 outer primi veganok glutine">
                     <div class="cont-int">
-                        <p><a href="Prodotti/Abbigliamento.html">Abbigliamento</a></p>
+                        <p><a href="#">Zuppa di ceci</a></p>
+                        <img class="img-ricetta" src="img/ricetta2.jpg">
                     </div>
                 </div>
-                <div class="col-sm-6 outer">
-                    <div class="cont-int2">
-                        <p><a href="Prodotti/Cosmesi.html">Cosmesi</a></p>
+                <div class="col-sm-6 outer dolci">
+                    <div class="cont-int">
+                        <p><a href="#">Crostata di albiocche</a></p>
+                        <img class="img-ricetta" src="img/Crostata.jpg">
                     </div>
                 </div>
-                <div class="col-sm-6 outer">
-                    <div class="cont-int2">
-                        <p><a href="Prodotti/Arredamento.html">Arredamento</a></p>
+                <div class="col-sm-6 outer secondi glutine">
+                    <div class="cont-int">
+                        <p><a href="#">Parmigiana di melanzane</a></p>
+                        <img class="img-ricetta" src="img/Parmigiana.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6 outer dolci glutine">
+                    <div class="cont-int">
+                        <p><a href="#">Tiramisù</a></p>
+                        <img class="img-ricetta" src="img/Tiramis%C3%B9.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6 outer antipasti veganok">
+                    <div class="cont-int">
+                        <p><a href="#">Torta salata di carciofi</a></p>
+                        <img class="img-ricetta" src="img/Torta-Carciofi.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6 outer primi">
+                    <div class="cont-int">
+                        <p><a href="#">Tagliatele al cacao con noci e gorgonzola</a></p>
+                        <img class="img-ricetta" src="img/TagliatelleCacaoNoci.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6 outer secondi" >
+                    <div class="cont-int">
+                        <p><a href="#">Polpettine di zucchine</a></p>
+                        <img class="img-ricetta" src="img/Polpettine-zucchine.jpg">
                     </div>
                 </div>
             </div>
@@ -286,7 +236,7 @@
     
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/menusx.js"></script>
+    <script src="js/filter.js"></script>
  
 
     
