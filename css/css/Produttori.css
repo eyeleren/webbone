@@ -3,10 +3,6 @@
     margin-bottom: 30px;
 }
 
-#descrizione {
-    border-bottom: 2px solid;
-}
-
 #produttori {
     border: 0px;
 }
@@ -30,4 +26,18 @@
 }
 
 
-/* media query mobile first*/
+/* media query mobile first */
+@media (min-width:992px) {
+    #prodottoni {
+        margin-top: 540px;
+    }
+}
+
+#logo_carota {
+    width: 100%;
+}
+
+#stessa-altezza{
+    border-bottom: 3px dotted;
+    padding-bottom: 20px
+}
