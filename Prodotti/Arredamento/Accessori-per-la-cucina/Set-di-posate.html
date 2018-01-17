@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Tag Meta-->
     <title>UnivEquo</title>
-    <meta name="description" content="Carota"> <!-- Nome della pagina -->
+    <meta name="description" content="Set-di-posate"> <!-- Nome della pagina -->
     <meta name="author" content="Gruppone Webbone">
     
     <!-- CSS -->
@@ -112,124 +112,122 @@
     <!-- Banner 
     <div>
         <img src="../../../img/Prodotti2.jpeg" class="img-responsive">
-    </div>-->
-    
+    </div>
+    -->
     <!-- Cose -->
-    <div class="container">
+    <div id="prodotto-spec" class="container">
         <div class="row">
-            <div id="menu_sx" class="col-sm-3">
-                <ul id="list">
-                <li class="dropdown mobile-icon bordino">
-                    <!-- Bottone menu dropdown -->
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Alimenti</a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="../../../Prodotti/Alimenti/Verdura.html">Verdura</a>
+            <div id="menu_sx" class="col-sm-2">
+                    
+            <button class="accordion">Alimenti</button>
+                <div class="panel">
+                    <ul id="list">
+                        <li class="sottomenu">
+                            <a href="/Prodotti/Alimenti/Verdura.html">Verdura</a>
                         </li>
-                            <li role="separator" class="divider"></li>
-                        <li>
+            
+                        <li class="sottomenu">
                             <a href="#">Frutta</a>
                         </li>
-                            <li role="separator" class="divider"></li>
-                        <li>
+            
+                        <li class="sottomenu">
                             <a href="#">Tè e Tisane</a>
                         </li>
-                            <li role="separator" class="divider"></li>
-                        <li>
+            
+                        <li class="sottomenu">
                             <a href="#">Cioccolato</a>
                         </li>
-                            <li role="separator" class="divider"></li>
-                        <li>
+                        
+                        <li class="sottomenu">
                             <a href="#">Spezie e Condimenti</a>
                         </li>
                     </ul>
-                </li>
+                </div>
                 
-                <li class="dropdown mobile-icon bordino">
-                    <!-- Bottone menu dropdown -->
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Abbigliamento</a>
-                    <ol class="dropdown-menu">
-                        <li>
-                            <a href="#">Cappelli</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Magliette</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Maglioni</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Pantaloni</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Calzini</a>
-                        </li>
-                    </ol>
-                </li>
-                <li class="dropdown mobile-icon bordino">
-                    <!-- Bottone menu dropdown -->
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cosmesi</a>
-                    <ol class="dropdown-menu">
-                        <li>
-                            <a href="#">Igiene quotidiana</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="../../../Prodotti/Cosmesi/Capelli.html">Capelli</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Viso</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Corpo</a>
-                        </li>
-                    </ol>
-                </li>
-                <li id="bordino2" class="dropdown mobile-icon">
-                    <!-- Bottone menu dropdown -->
-                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Arredamento</a>
-                    <ol class="dropdown-menu">
-                        <li>
-                            <a href="../../../Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Tessuti</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="#">Decorazioni</a>
-                        </li>
-                    </ol>
-                </li>
-            </ul>
+            <button class="accordion">Abbigliamento</button>
+                <div class="panel">
+                    <ul id="list">
+                         <li class="sottomenu">
+                             <a href="#">Cappelli</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="/Prodotti/Abbigliamento/Magliette.html">Magliette</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Maglioni</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Pantaloni</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Calzini</a>
+                         </li>
+                     </ul>
+                </div>
+                
+             <button class="accordion">Cosmesi</button>
+                 <div class="panel">
+                     <ul id="list">
+                         <li class="sottomenu">
+                              <a href="/Prodotti/Cosmesi/Capelli.html">Capelli</a>
+                          </li>
+
+                          <li class="sottomenu">
+                              <a href="#">Igiene quotidiana</a>
+                          </li>
+
+                          <li class="sottomenu">
+                              <a href="#">Viso</a>
+                          </li>
+
+                          <li class="sottomenu">
+                              <a href="#">Corpo</a>
+                          </li>
+                     </ul>
+                </div>
+                
+             <button class="accordion">Arredamento</button>
+                 <div class="panel">
+                     <ul id="list">
+                         <li class="sottomenu">
+                             <a href="/Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Tessuti</a>
+                         </li>
+
+                         <li class="sottomenu">
+                             <a href="#">Decorazioni</a>
+                    </ul>
+                </div>
             </div>
-            <div class="col-sm-9"> 
+            
+            <div class="col-sm-10 contenuto-dx"> 
                 <h1 style="text-align: center; font-size: 50px;"><strong>SET DI POSATE</strong></h1>
-                  <div id="invisibile" class="col-sm-1"></div>
-              <div id="img-specifica" class="col-sm-4">
-                   <img id="logo-carota" src="../../../img/Set_Posate.jpg">  <!-- QUI CI VA IMMAGINE -->
-              </div>
-                  <div id="invisibile" class="col-sm-1 invisibile"></div>
-              <div id="logo-abbigliamento" class="col-sm-5">
-                  <p style="text-align: justify">
-                      qui ci va scritto qualcosa non so cosa scrivere
-                  </p>
-              </div>
-                <div class="col-md-12 text-center"> 
+                <div class="col-sm-6 noborder">
+                    <div id="img-specifica" class="col-sm-10">
+                        <img id="logo-carota" src="/img/Set_Posate.jpg">  
+                    </div>
+                </div>
+                <div class="col-sm-6 noborder">
+                    <div id="descrizione" class="col-sm-12">
+                        <p>ifiefiefieifeii</p>
+                    </div>
+                </div>
+                    
+                <div class="col-md-12 text-center bordertop"> 
                 <div class="btn" role="group">
                     <button type="button" class="btn btn-default">Aggiungi al Carrello</button>
                     <button type="button" class="btn btn-default">Acquista subito</button>
                 </div>
                 </div>
                 <br>
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center noborder">
                 <div class="btn pull-center" role="group">
                     <button type="button" class="btn btn-default">Aggiungi alla lista dei desideri</button>
                     <button type="button" class="btn btn-default">Aggiungi ai preferiti</button>
@@ -237,7 +235,7 @@
                 </div>
                 
             <!-- Form Recensioni -->
-                <div class="col-sm-12 text-center">
+                <div class="col-sm-12 text-center bordertop">
                     <form>
                         <label><h1>Raccontaci la tua esperienza!</h1></label><br>
                         <label>Inserisci i tuoi dati:</label> <br>
@@ -262,9 +260,9 @@
     </div>
     <div class="container">
         <div class="row">
-        <div class="col-sm-6">
+        <div id="spazio" class="col-sm-6 border">
             <h1>Recensione #1</h1>
-            <div class="col-sm-4">
+            <div class="col-sm-4 noborder">
                 <p>Lorenzo Cercato</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -273,15 +271,15 @@
                 <span class="fa fa-star"></span>
                 
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-8 noborder">
                 <p>Mi è piaciuto molto questo acquisto poichè è molto lunga e grossa.
                    articolo molto versatile e dal facile utilizzo.
                 </p>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div id="spazio1" class="col-sm-6 border">
             <h1>Recensione #1</h1>
-            <div class="col-sm-4">
+            <div class="col-sm-4 noborder">
                 <p>Lorenzo Cercato</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -290,7 +288,7 @@
                 <span class="fa fa-star"></span>
                 
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-8 noborder">
                 <p>Mi è piaciuto molto questo acquisto poichè è molto lunga e grossa.
                    articolo molto versatile e dal facile utilizzo.
                 </p>
@@ -321,7 +319,7 @@
     </div>
 
     </div>
-  
+    
     <!-- Form per il Login -->
     
     
@@ -341,6 +339,7 @@
 				</div>
 			</div>
 		  </div>
+  
     <!-- Footer -->
     
     <footer class="footer">
@@ -355,7 +354,8 @@
     
     <!-- Script --->
     
-    <script src="../../../js/jquery.min.js"></script>
-    <script src="../../../js/bootstrap.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/menusx.js"></script>
 
 </html>
