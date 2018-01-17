@@ -1,12 +1,242 @@
 <!doctype html>
-<html>
-<head>
+<html lang="it">
+    <head>
+    <!-- Viewport -->
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Tag Meta-->
+    <title>UnivEquo</title>
+    <meta name="description" content="Produttore1"> <!-- Nome della pagina -->
+    <meta name="author" content="Gruppone Webbone">
+    
+    <!-- CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/css/Preset_Sito.css" rel="stylesheet">
+    <link href="../css/css/Produttori.css" rel="stylesheet"> <!-- Foglio css della pagina -->
+    <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
+        
 </head>
 <body>
-<h1> Produttore1 </h1>
+    
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <!--  -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+        
+    <!-- Questo è il logo -->
+    <a href="../Homepage.html"> <img src="../img/logo_unive.jpg" style="height: 50px; width: 50px"> </a>
+    </div>
+    
+    <!--  -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+        <li >
+            <a href="../Prodotti.html">Prodotti</a>
+        </li>
+        <li class="active">
+            <a href="../Produttori.html">Produttori</a>   
+        </li>
+        <li>
+            <a href="../Lavora_con_noi.html">Lavora con noi</a>   
+        </li>
+        <li>
+            <a href="../Blog.html">Blog</a>   
+        </li>
+        <li>
+            <a href="../Social.html">Social</a>   
+        </li>
+        <li>
+            <a href="../Chi_Siamo.html">Chi siamo</a>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">       
+                
+    <!-- MENU DROPDOWN-Search Bar -->
+             
+    <li class="dropdown mobile-icon">
+    <!-- Bottone menu dropdown search bar -->
+    <a idhref="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-search"></i></a>
+    <ul class="dropdown-menu">
+    <form class="navbar-form navbar-left">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    <a href="../Search-pro.html"><button type="button" class="btn btn-default pull-right">Cerca</button></a>
+    </form>
+    </ul>
+    </li>
+
+    <li class="mobile-icon">   
+    <a data-toggle="modal" data-target="#Login"><i class="glyphicon glyphicon-user"></i></a> 
+    
+    </li>
+    <li class="mobile-icon">
+    <a href="../Carrello.html"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+        
+    </li>
+    </ul>
+    
+        </div><!-- /.navbar-collapse -->
+    
+        </div><!-- /.container-fluid -->
+        
+    </nav>
+    <!-- Stampo per le pagine -->
+    
+    <!-- Path -->
+    <ol class="breadcrumb">
+         <li>
+             <a href="../Homepage.html">Home</a>
+         </li>
+         <li>
+             <a href="../Produttori.html">Prodotti</a>
+         </li>
+         <li class="active">Bona Natura</li>
+    </ol>    
+    
+    <!-- Banner -->
+    <div>
+        <img src="../img/gregge2.jpg" class="img-responsive">
+    </div>
+    
+    <!-- Cose -->
+    
+      <div id="contenuto" class="container">
+        <div class="row text-center">
+            <div id="stessa-altezza" class="col-sm-12 ">
+                <p class="<strong>">
+                    <strong> Bona Natura - Biodiversità e tradizione </strong>
+                </p>   
+                <p>  
+                Si tratta di una realtà peruviana, situata nelle vaste steppe di Machu Pichu, che sin dai primi anni novanta ha mantenuto la carattaristica di impresa "eco-socio-solidale", modello che secondo i padri fondatori dell'impresa, costituisce una risposta sostenibile ai processi di globalizzazione.
+                </p>
+                <p class="text-left"> <strong>Paese : </strong> <ins>Perù </ins>
+                </p>
+                <p class="text-left"> <strong>Fondazione : </strong><ins> 1915 </ins>
+                </p>
+                <p class="text-left"> <strong> Persone coinvolte : </strong> <ins> 222 </ins>
+                </p>
+                <p class="text-left"> <strong> Sito Web : </strong> <ins style="color:blue"> http://www.lemiglioricarotedelperu.org </ins>
+                </p>
+            </div>
+        </div>
+    
+    <div id="img-specifica" class="col-md-5 text-center">
+          <img id="carotina" src="../img/massella.jpg">
+      </div>      
+          
+    <div id="descrizione" class="col-md-7 colsa">
+          <h1 style="font-size:160%; color:darkred">  LA CAROTA CHE LOTTA CONTRO LA COCA</h1>
+        <p>
+            Bona Natura, molto attiva in campo ecologico-ambientale, collabora con varie organizzazioni locali di produttori. L’attività di trasformazione della verdura avviene nella sede storica di Bona Natura nella città di Tarata a circa 2.800 metri di quota, ad una quarantina di chilometri da Cochabamba. Il territorio del Chapare sarebbe un territorio con una forte vocazione agricola, ma non esiste coltura che possa competere con la redditività della foglia di coca. Sono qui che vivono i produttori di carote del Perù, (Asociaciòn Productores Agroecologicos Margen Izquierdo [APCP]), che da anni collabora con Bona Natura. La scarsa redditività della vendita delle carote negli ultimi anni rischia di spingere molti soci all’abbandono delle coltivazioni di carote soppiantate da quelle di coca, con pesanti ripercussioni sulla fertilità dei suoli e l’affermarsi di una monocoltura che rende di difficile attuazione qualsiasi progetto di sviluppo alternativo. Apcp coltiva i frutti secondo i metodi antichi, osservando la tecnica del "descanso", il riposo di almeno 10 anni perché la foresta riprenda spazio e forza.
+            
+        </p>
+        
+        
+          </div>
+          
+          <div id="stessa-altezza" class="col-md-12 colsa">
+        <h1 style="font-size:150%; color:darkred" class="text-center">    VALUTAZIONE ETICA </h1>
+              <p>
+L’azienda è molto radicata nel tessuto socio economico locale, nel quale genera ricadute positive, creando opportunità di lavoro per numerose famiglie che vivono nella zona di Lima. Importante anche il fatto che l’azienda costituisce un punto di riferimento per gruppi di piccoli produttori marginali ai quali offre una buona opportunità di commercializzazione dei loro prodotti, cercando di mantenere una presenza in aree nevralgiche del paese.
+              </p>
+        </div>
+
+      <!-- I migliori prodotti del produttore--> 
+          
+    <div class="row text-center">
+        <div id="prodottoni">
+            <h1>Ultimi Prodotti da NaturaBuona</h1>
+        </div>
+    <div class="col-sm-3">
+        <p>Carota del Perù</p>
+          <a href="Prodotti/Alimenti/Verdura/Carote.html"><img id="logo_carota" src="../img/Carota.jpg"></a>
+        
+      </div>
+      <div class="col-sm-3">
+          <p>Piselli Peruviani</p>
+          <a href="#"><img id="logo_carota" src="../img/pisellini.jpg"></a>
+      </div>
+        <div class="col-sm-3">
+          <p>Spinaci Del Machu Pichu</p>
+          <a href="#"><img id="logo_carota" src="../img/spinacioni.jpg"></a>
+      </div>
+      <div class="col-sm-3">
+          <p>Patate rosse di Lima</p>
+          <a href="#"><img id="logo_carota" src="../img/patatone.jpg"></a>
+      </div>
+    </div>
+    </div>   
+
+    <!--- Social Bar --->
+    <div class="container">
+    <div id="social-bar" class="row text-center">
+        <div id="div_fb" class="col-sm-2"> 
+            <a href="https://www.facebook.com/UnivEquo/"> <img class=" center-block" height="70%" id="logo_fb" src="../Img/facebook-icon.png"></a>
+        </div>
+        <div id="div_insta" class="col-sm-2">    
+            <a href="https://www.instagram.com/UnivEquo/"><img class="center-block" height=" 70%" id="logo_insta" src="../Img/logo_instagram.png"></a>
+
+        </div>
+        <div id="newsletter" class="col-sm-8 align-middle">
+        <h2>Newsletter</h2>
+        <form action="" method="post">
+        <div class="input-prepend">
+        <span class="add-on"><i class="icon-envelope"></i></span>
+               <input type="text" id="" name="" placeholder="your@email.com">
+               <input type="submit" value="Iscriviti ora!" class="btn btn-default" />
+        </div>
+        </form>
+        </div>    
+    </div>
+
+    </div>
+  
+    
+    <!-- Form per il Login -->
+    
+    
+    <div id="Login" class="modal fade" tabindex="-1" role="dialog"aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<legend>Accedi al tuo Account</legend><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="../Registrazione.html">Registrati</a> - <a href="#">Password Dimentica</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
+    <!-- Footer -->
+    
+    <footer class="footer">
+        <div  class="container">
+        <p>
+            Sede legale Via Torino Edificio Z Interno Aula C  <span class="paperino"><br></span><span class="footer-destra">&copy; Powered By Gruppone Wolfone</span>                       
+        </p>
+        
+        </div>
+    </footer>
+    </body>
+    
+    <!-- Script --->
+    
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/menusx.js"></script>
 
 
-</body>
 </html>
