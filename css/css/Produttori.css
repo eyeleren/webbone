@@ -7,8 +7,7 @@
     border: 0px;
 }
 
-.outer{
-    border: 0px !important;
+.out{
     text-align: center;
     font-size: 20px;
 }
@@ -25,19 +24,9 @@
     margin-bottom: 5px;
 }
 
-
 /* media query mobile first */
 @media (min-width:992px) {
     #prodottoni {
         margin-top: 540px;
     }
-}
-
-#logo_carota {
-    width: 100%;
-}
-
-#stessa-altezza{
-    border-bottom: 3px dotted;
-    padding-bottom: 20px
 }

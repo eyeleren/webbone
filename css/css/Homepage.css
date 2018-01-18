@@ -2,16 +2,8 @@
     padding-top: 30px;
     }
 
-#logo_carota {
-    width: 100%;
-}
 
-#img-specifica {
-    padding: 0px;
-    border: 0px;
-}
-
-#descrizione {
+.descrizione {
     padding-left: 30px;
     padding-right: 30px;
     background-color: transparent;
@@ -23,7 +15,7 @@
     color:  #ff1a1a;
 }
 
-#stessa-altezza{
+.stessa-altezza{
     border-bottom: 3px dotted;
     padding-bottom: 20px
 }
