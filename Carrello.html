@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="it">
+    <head>
+    <!-- Viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Tag Meta-->
+    <title>UnivEquo</title>
+    <meta name="description" content="Carrello"> <!-- Nome della pagina -->
+    <meta name="author" content="Gruppone Webbone">
+    
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/css/Preset_Sito.css" rel="stylesheet">
+    <link href="css/css/carrello.css" rel="stylesheet"> <!-- Foglio css della pagina -->
+    <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
+        
+</head>
+<body>
+    
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+    <!--  -->
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+        
+    <!-- Questo è il logo -->
+    <a href="Homepage.html"> <img src="img\logo_unive.jpg" style="height: 50px; width: 50px"> </a>
+    </div>
+    
+    <!--  -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+        <li>
+            <a href="Prodotti.html">Prodotti</a>
+        </li>
+        <li>
+            <a href="Produttori.html">Produttori</a>   
+        </li>
+        <li>
+            <a href="Lavora_con_noi.html">Lavora con noi</a>   
+        </li>
+        <li>
+            <a href="Ricettario.html">Ricettario</a>   
+        </li>
+        <li>
+            <a href="Social.html">Social</a>   
+        </li>
+        <li>
+            <a href="Chi_Siamo.html">Chi siamo</a>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">       
+                
+    <!-- MENU DROPDOWN-Search Bar -->
+             
+    <li class="dropdown mobile-icon">
+    <!-- Bottone menu dropdown search bar -->
+    <a idhref="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-search"></i></a>
+    <ul class="dropdown-menu">
+    <form class="navbar-form navbar-left">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    <a href="Search-pro.html"><button type="button" class="btn btn-default pull-right">Cerca</button></a>
+    </form>
+    </ul>
+    </li>
+
+    <li class="mobile-icon">   
+    <a href="Homepage.html"><i class="glyphicon glyphicon-log-out"></i></a> 
+    
+    </li>
+    <li class="mobile-icon active">
+    <a href="Carrello.html"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+        
+    </li>
+    </ul>
+    
+        </div><!-- /.navbar-collapse -->
+    
+        </div><!-- /.container-fluid -->
+        
+    </nav>
+    <!-- Stampo per le pagine -->
+    
+    <!-- Path -->
+    <ol class="breadcrumb">
+         <li>
+             <a href="Homepage.html">Home</a>
+         </li>
+         <li class="active">Carrello</li>
+    </ol>    
+    
+    <!-- CONTENUTO -->
+    
+    <div class="btn-group" role="group">
+        <a href="#carrello" class="scroll-link" data-id="carrello"><button type="button" class="btn btn-default width">Carrello</button></a>
+        <a href="#ordini-in-corso" class="scroll-link" data-id="ordini-in-corso"><button type="button" class="btn btn-default width">Ordini in corso</button></a>
+        <a href="#storico-ordini" class="scroll-link" data-id="storico-ordini"><button type="button" class="btn btn-default width">Storico ordini</button></a>
+    </div>
+    
+    <div id="contenuti" class="container">
+        <div class="row">
+            <div id="carrello" class="col-sm-12 col-xs-12 noborder">
+                <h1 style="text-align: center">Carrello</h1>
+                <div class="col-sm-1 noborder hidden-xs"></div>
+                <div class="col-sm-4 noborder hidden-xs">
+                    <h2>Nome Prodotto</h2>
+                </div>
+                <div class="col-sm-3 noborder hidden-xs">
+                    <h2>Prezzo</h2>
+                </div>
+                <div class="col-sm-2 noborder hidden-xs">
+                    <h2>Quantità</h2>
+                </div>
+                <div class="col-sm-2 text-center noborder bottone">
+                    <button type="button" class="btn btn-default">Acquista</button>
+                </div>
+                
+                
+                <div class="col-sm-12 col-xs-12 outer">
+                    <div class="col-sm-1 col-xs-4 noborder nopadding">
+                        <img src="img/Carota.jpg" class="img-specifica">
+                    </div>
+                    <div class="col-sm-4 noborder hidden-xs">
+                        
+                        <p>Carota del perù</p>
+                    </div>
+                    <div class="col-sm-3 noborder hidden-xs">
+                        <p>1,6€ al kg</p>
+                    </div>
+                    <div class="col-sm-2 noborder hidden-xs">
+                        <form>
+                            <select name="quantità">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div id="sipadding" class="col-xs-8 visible-xs noborder">
+                        <p>Carota del perù</p>
+                        <p>1,6€ al kg</p>
+                        <form>
+                            <select name="quantità">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>    
+            </div>
+            <div id="ordini-in-corso" class="col-sm-12 col-xs-12 noborder">
+                <h1 style="text-align: center">Ordini in corso</h1>
+                                <div class="col-sm-1 noborder hidden-xs"></div>
+                <div class="col-sm-4 noborder hidden-xs">
+                    <h2>Nome Prodotto</h2>
+                </div>
+                <div class="col-sm-3 noborder hidden-xs">
+                    <h2>Prezzo</h2>
+                </div>
+                <div class="col-sm-4 noborder hidden-xs">
+                    <h2>Traccia il tuo pacco</h2>
+                </div>
+                    
+                <div class="col-sm-12 col-xs-12 outer">
+                    <div class="col-sm-1 col-xs-4 noborder nopadding">
+                        <img src="img/T-shirt.jpg" class="img-specifica">
+                    </div>
+                    <div class="col-sm-4 noborder hidden-xs">
+                        
+                        <p>T-shirt</p>
+                    </div>
+                    <div class="col-sm-3 noborder hidden-xs">
+                        <p>15€</p>
+                    </div>
+                    <div class="col-sm-4 noborder hidden-xs bottone">
+                        <button type="button" class="btn btn-default">Scopri dov'è il tuo pacco</button>
+                    </div>
+                    <div id="sipadding" class="col-xs-8 visible-xs noborder">
+                        <p>T-shirt</p>
+                        <p>15€</p>
+                        <button type="button" class="btn btn-default">Tracciami</button>
+                    </div>
+                </div>  
+            </div>
+            <div id="storico-ordini" class="col-sm-12 col-xs-12 noborder">
+                <h1 style="text-align: center">Storico ordini</h1>
+                                <div class="col-sm-1 noborder hidden-xs"></div>
+                <div class="col-sm-4 noborder hidden-xs">
+                    <h2>Nome Prodotto</h2>
+                </div>
+                <div class="col-sm-3 noborder hidden-xs">
+                    <h2>Prezzo</h2>
+                </div>
+                <div class="col-sm-2 noborder hidden-xs">
+                    <h2>Data consegna</h2>
+                </div>               
+                
+                <div class="col-sm-12 col-xs-12 outer">
+                    <div class="col-sm-1 col-xs-4 noborder nopadding">
+                        <img src="img/Shampoo.jpg" class="img-specifica">
+                    </div>
+                    <div class="col-sm-4 noborder hidden-xs">
+                        
+                        <p>Shampoo dall'Egitto</p>
+                    </div>
+                    <div class="col-sm-3 noborder hidden-xs">
+                        <p>22€</p>
+                    </div>
+                    <div class="col-sm-2 noborder hidden-xs">
+                        <p>27/01/1996</p>
+                    </div>
+                    <div id="sipadding" class="col-xs-8 visible-xs noborder">
+                        <p>Shampoo dall'Egitto</p>
+                        <p>22€</p>
+                        <p>27/01/1996</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!--- Social Bar --->
+    <div class="container">
+    <div id="social-bar" class="row text-center">
+        <div id="div_fb" class="col-sm-2"> 
+            <a href="https://www.facebook.com/UnivEquo/"> <img class=" center-block" height="70%" id="logo_fb" src="Img/facebook-icon.png"></a>
+        </div>
+        <div id="div_insta" class="col-sm-2">    
+            <a href="https://www.instagram.com/UnivEquo/"><img class="center-block" height=" 70%" id="logo_insta" src="Img/logo_instagram.png"></a>
+
+        </div>
+        <div id="newsletter" class="col-sm-8 align-middle">
+        <h3>Newsletter</h3>
+        <form action="" method="post">
+        <div class="input-prepend">
+        <span class="add-on"><i class="icon-envelope"></i></span>
+               <input type="text" id="" name="" placeholder="your@email.com">
+               <input type="submit" value="Iscriviti ora!" class="btn btn-default" />
+        </div>
+        </form>
+        </div>    
+    </div>
+
+    </div>
+  
+    <!-- Footer -->
+    
+    <footer class="footer">
+        <div  class="container">
+        <p>
+            Sede legale Via Torino Edificio Z Interno Aula C  <span class="paperino"><br></span><span class="footer-destra">&copy; Powered By Gruppone Wolfone</span>                       
+        </p>
+        
+        </div>
+    </footer>
+    </body>
+    
+    <!-- Script --->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scroll.js"></script>
+    
+</html>
