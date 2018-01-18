@@ -4,8 +4,9 @@
 }
 
 .width {
-    width: 10em;
-    margin-right: 10px;
+    margin-top: 200px;
+    width: 150px !important;
+    background-color: #ffffb3 !important;
 }
 
 
