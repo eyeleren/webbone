@@ -35,6 +35,11 @@
     border: 2px solid !important;
 }
 
+.outer1{
+    border: 2px solid !important;
+    margin-top: 10px;
+}
+
 @media (max-width:420px) {
     .btn-group {
         display: none;
