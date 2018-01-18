@@ -101,14 +101,17 @@
     
     <!-- CONTENUTO -->
     <h1 style="text-align: center">Benvenuto nella tua Area Privata</h1>
-    <div class="btn-group" role="group">
-        <a href="#carrello" class="scroll-link" data-id="carrello"><button type="button" class="btn btn-default width">Carrello</button></a>
-        <a href="#ordini-in-corso" class="scroll-link" data-id="ordini-in-corso"><button type="button" class="btn btn-default width">Ordini in corso</button></a>
-        <a href="#storico-ordini" class="scroll-link" data-id="storico-ordini"><button type="button" class="btn btn-default width">Storico ordini</button></a>
-    </div>
     
-    <div id="contenuti" class="container">
+    <div class="container">
         <div class="row">
+        <div class="col-sm-2">
+            <div class="btn-group-vertical noborder" role="group">
+                <a href="#carrello" class="scroll-link btn btn-default width" data-id="carrello">Carrello</a>
+                <a href="#ordini-in-corso" class="scroll-link btn btn-default width" data-id="ordini-in-corso">Ordini in corso</a>
+                <a href="#storico-ordini" class="scroll-link btn btn-default width" data-id="storico-ordini">Storico ordini</a>
+            </div>
+        </div>
+            <div id="contenuti" class="col-sm-10">
             <div id="carrello" class="col-sm-12 col-xs-12 noborder">
                 <h1 style="text-align: center">Carrello</h1>
                 <div class="col-sm-4 noborder hidden-xs col-sm-offset-1">
@@ -228,6 +231,7 @@
                 </div>  
             </div>
         </div>
+        </div>
     </div>
     
     
@@ -237,10 +241,10 @@
     <div class="container">
     <div id="social-bar" class="row text-center">
         <div id="div_fb" class="col-sm-2"> 
-            <a href="https://www.facebook.com/UnivEquo/"> <img class=" center-block" height="70%" id="logo_fb" src="Img/facebook-icon.png" alt="logo di facebook"></a>
+            <a href="https://www.facebook.com/UnivEquo/" target="_blank"> <img class=" center-block" height="70%" id="logo_fb" src="Img/facebook-icon.png" alt="logo di facebook"></a>
         </div>
         <div id="div_insta" class="col-sm-2">    
-            <a href="https://www.instagram.com/UnivEquo/"><img class="center-block" height=" 70%" id="logo_insta" src="Img/logo_instagram.png" alt="logo di instagram"></a>
+            <a href="https://www.instagram.com/UnivEquo/" target="_blank"><img class="center-block" height=" 70%" id="logo_insta" src="Img/logo_instagram.png" alt="logo di instagram"></a>
 
         </div>
         <div id="newsletter" class="col-sm-8 align-middle">
