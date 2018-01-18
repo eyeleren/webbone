@@ -4,17 +4,20 @@
     border: 3px solid;
 }
 
-.outer {
-    border: 0px !important;
-    display: none;
-}
 
 .cont-int {
+    text-align: center;
     text-align: center;
     padding-top: 15px;
     border: 1px solid;
     
 }
+
+.none {
+    border: 0px !important;
+    display: none;
+}
+
 
 .img-ricetta {
     width: 100%;
@@ -33,9 +36,3 @@
     width: 100%;
     margin-top: 10px;
 }
-
-.noborder {
-    border: 0px !important;
-}
-
-.
