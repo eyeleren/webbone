@@ -101,8 +101,9 @@
     
     <!-- CONTENUTO -->
     <h1 style="text-align: center">Benvenuto nella tua Area Privata</h1>
+ 
     <div class="btn-group" role="group">
-        <a href="#carrello" class="scroll-link" data-id="carrello"><button type="button" class="btn btn-default width">Carrello</button></a>
+        <a href="#carrello" class="scroll-link" data-id="carrello"><button type="button" class="btn btn-default width">Magazzino</button></a>
         <a href="#ordini-in-corso" class="scroll-link" data-id="ordini-in-corso"><button type="button" class="btn btn-default width">Ordini in corso</button></a>
         <a href="#storico-ordini" class="scroll-link" data-id="storico-ordini"><button type="button" class="btn btn-default width">Storico ordini</button></a>
     </div>
@@ -110,7 +111,7 @@
     <div id="contenuti" class="container">
         <div class="row">
             <div id="carrello" class="col-sm-12 col-xs-12 noborder">
-                <h1 style="text-align: center">Carrello</h1>
+                <h1 style="text-align: center">Magazzino</h1>
                 <div class="col-sm-4 noborder hidden-xs col-sm-offset-1">
                     <h2>Nome Prodotto</h2>
                 </div>
@@ -118,10 +119,10 @@
                     <h2>Prezzo</h2>
                 </div>
                 <div class="col-sm-2 noborder hidden-xs">
-                    <h2>Quantità</h2>
+                    <h2>In vendita</h2>
                 </div>
                 <div class="col-sm-2 text-center noborder bottone">
-                    <button type="button" class="btn btn-default">Acquista</button>
+                    <button type="button" class="btn btn-default">Aggiungi Prodotti</button>
                 </div>
                 
                 
@@ -130,6 +131,7 @@
                         <a href="Prodotti/Alimenti/Verdura/Carote.html"><img src="img/Carota.jpg" alt="immagine di una carota" class="img-specifica"></a>
                     </div>
                     <div class="col-sm-4 noborder hidden-xs">
+                        
                         <p>Carota del perù</p>
                     </div>
                     <div class="col-sm-3 noborder hidden-xs">
@@ -146,9 +148,44 @@
                             </select>
                         </form>
                     </div>
-                    <div class="col-xs-8 visible-xs noborder sipadding">
+                    <div id="sipadding" class="col-xs-8 visible-xs noborder">
                         <p>Carota del perù</p>
                         <p>1,6€ al kg</p>
+                        <form>
+                            <select name="quantità">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-xs-12 outer1">
+                    <div class="col-sm-1 col-xs-4 noborder nopadding">
+                        <a href="Prodotti/Arredamento/Accessori-per-la-cucina/Set-di-posate.html"><img src="img/Set_Posate.jpg" alt="immagine di un set di posate" class="img-specifica"></a>
+                    </div>
+                    <div class="col-sm-4 noborder hidden-xs">
+                        <p>Set di Posate</p>
+                    </div>
+                    <div class="col-sm-3 noborder hidden-xs">
+                        <p>30€</p>
+                    </div>
+                    <div class="col-sm-2 noborder hidden-xs">
+                        <form>
+                            <select name="quantità">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div id="sipadding" class="col-xs-8 visible-xs noborder">
+                        <p>Set di posate</p>
+                        <p>30€</p>
                         <form>
                             <select name="quantità">
                                 <option value="1">1</option>
@@ -167,10 +204,10 @@
                     <h2>Nome Prodotto</h2>
                 </div>
                 <div class="col-sm-3 noborder hidden-xs">
-                    <h2>Prezzo</h2>
+                    <h2>Indirizzo </h2>
                 </div>
                 <div class="col-sm-4 noborder hidden-xs">
-                    <h2>Traccia il tuo pacco</h2>
+                    <h2>Dettagli ordine</h2>
                 </div>
                     
                 <div class="col-sm-12 col-xs-12 outer">
@@ -182,15 +219,15 @@
                         <p>T-shirt</p>
                     </div>
                     <div class="col-sm-3 noborder hidden-xs">
-                        <p>15€</p>
+                        <p>Via Della Vita 118</p>
                     </div>
                     <div class="col-sm-4 noborder hidden-xs bottone">
-                        <button type="button" class="btn btn-default">Scopri dov'è il tuo pacco</button>
+                        <button type="button" class="btn btn-default">Evadi l'ordine</button>
                     </div>
-                    <div class="col-xs-8 visible-xs noborder sipadding">
+                    <div id="sipadding" class="col-xs-8 visible-xs noborder">
                         <p>T-shirt</p>
-                        <p>15€</p>
-                        <button type="button" class="btn btn-default">Tracciami</button>
+                        <p>Via Della Vita 118</p>
+                        <button type="button" class="btn btn-default">Evadi</button>
                     </div>
                 </div>  
             </div>
@@ -200,7 +237,7 @@
                     <h2>Nome Prodotto</h2>
                 </div>
                 <div class="col-sm-3 noborder hidden-xs">
-                    <h2>Prezzo</h2>
+                    <h2>Indirizzo</h2>
                 </div>
                 <div class="col-sm-2 noborder hidden-xs">
                     <h2>Data consegna</h2>
@@ -215,15 +252,15 @@
                         <p>Shampoo dall'Egitto</p>
                     </div>
                     <div class="col-sm-3 noborder hidden-xs">
-                        <p>22€</p>
+                        <p>Via Della Laurea 404</p>
                     </div>
                     <div class="col-sm-2 noborder hidden-xs">
-                        <p>27/01/1996</p>
+                        <p>21/01/2018</p>
                     </div>
-                    <div class="col-xs-8 visible-xs noborder sipadding">
+                    <div id="sipadding" class="col-xs-8 visible-xs noborder">
                         <p>Shampoo dall'Egitto</p>
-                        <p>22€</p>
-                        <p>27/01/1996</p>
+                        <p>Via Della Laurea 404</p>
+                        <p>21/01/2018</p>
                     </div>
                 </div>  
             </div>
