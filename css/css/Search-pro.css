@@ -24,7 +24,7 @@ article {
 }
 
 .dotted {
-    border-top: 3px dotted  !important;
+    border-top: 2px solid  !important;
     border-right: 0px !important;
     border-left: 0px !important;
     border-bottom: 0px !important;
@@ -37,4 +37,8 @@ article {
     left: 150px;
     height: 30px;
                     
+}
+
+.img-specifica {
+    margin-top:100px;
 }

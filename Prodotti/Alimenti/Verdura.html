@@ -120,7 +120,7 @@
                 <div class="panel">
                     <ul id="list">
                         <li class="sottomenu">
-                            <a href="/Prodotti/Alimenti/Verdura.html">Verdura</a>
+                            <a href="../../Prodotti/Alimenti/Verdura.html">Verdura</a>
                         </li>
             
                         <li class="sottomenu">
@@ -149,7 +149,7 @@
                          </li>
 
                          <li class="sottomenu">
-                             <a href="/Prodotti/Abbigliamento/Magliette.html">Magliette</a>
+                             <a href="../../Prodotti/Abbigliamento/Magliette.html">Magliette</a>
                          </li>
 
                          <li class="sottomenu">
@@ -170,7 +170,7 @@
                  <div class="panel">
                      <ul id="list">
                          <li class="sottomenu">
-                              <a href="/Prodotti/Cosmesi/Capelli.html">Capelli</a>
+                              <a href="../../Prodotti/Cosmesi/Capelli.html">Capelli</a>
                           </li>
 
                           <li class="sottomenu">
@@ -191,7 +191,7 @@
                  <div class="panel">
                      <ul id="list">
                          <li class="sottomenu">
-                             <a href="/Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
+                             <a href="../../Prodotti/Arredamento/Accessori_per_la_cucina.html">Accessori per la cucina</a>
                          </li>
 
                          <li class="sottomenu">
@@ -205,22 +205,22 @@
             </div>
             
             <div id="contenuti" class="col-sm-9">
-                <div class="" >
+                <div class="col-sm-6 out noborder" >
                     <div class="cont-int">
-                        <p><a href="/Prodotti/Alimenti/Verdura/Carote.html">Carota</a></p>
+                        <p><a href="../../Prodotti/Alimenti/Verdura/Carote.html">Carota</a></p>
                     </div>
                 </div>
-                <div class="">
+                <div class="col-sm-6 out noborder">
                     <div class="cont-int">
                         <p><a href="#">Radicchio</a></p>
                     </div>
                 </div>
-                <div class="">
+                <div class="col-sm-6 out noborder">
                     <div class="cont-int2">
                         <p><a href="#">Cavolfiore</a></p>
                     </div>
                 </div>
-                <div class="">
+                <div class="col-sm-6 out noborder">
                     <div class="cont-int2">
                         <p><a href="#">Zucchine</a></p>
                     </div>
@@ -288,21 +288,6 @@
     
     <script src="../../js/jquery.min.js"></script>
     <script src="../../js/bootstrap.js"></script>
-        <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active-menusx");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight){
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                } 
-            });
-        }
-    </script>
+    <script src="../../js/menusx.js"></script>
 
 </html>
