@@ -16,14 +16,6 @@ body {
     width: 300px;
 }
 
-@media (max-width:768px){
-    .mobile-icon{
-        float: left;
-        width: 33%;
-        text-align: center;
-    }
-}
-
 .nobordertop {
     border-top: 0px !important;
 }
@@ -37,22 +29,6 @@ body {
     display: block;
     margin-top: 13.4px;
     float:left;
-}
-@media(max-width:768px){
-    #logo_fb, #logo_insta{
-        float: none;
-    }
-    footer{
-        text-align: center;
-    }
-}
-@media(min-width:768px){
-    .footer-destra{
-        float: right;
-    }
-    .paperino{
-        display: none;
-    }
 }
 
 #div_fb {
@@ -143,17 +119,6 @@ body {
 .outer1{
     border: 2px solid !important;
     margin-top: 10px;
-}
-
-@media (max-width:420px) {
-    .btn-group {
-        display: none;
-    }
-    
-    #contenuti {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
 }
 
 h2 {
@@ -276,19 +241,6 @@ select {
     transition: max-height 0.2s ease-out;
 }
 
-/* media query mobile first */
-@media (max-width:780px) {
-    #menu_sx {
-        display: none;
-    }
-    #invisibile2{
-        display: none;
-    }
-    .cont-int2{
-        margin-top: 0px !important;
-    }
-}
-
 .descrizione {
     padding-left: 30px;
     padding-right: 30px;
@@ -371,40 +323,10 @@ select {
         text-align: center;
 }
 
-/* media query mobile first */
-@media (max-width:767px) {
-    #menu_sx {
-        display: none;
-    }
-    #invisibile2{
-        display: none;
-    }
-    .cont-int2{
-        margin-top: 0px !important;
-    }
-    .nobordertop{
-        margin-bottom: 10px
-    }
-    #spazio1{
-        border-width: 0px 2px 2px 2px !important;
-    }    
-}
-
-@media (max-width: 1200px) {
-        .accordion {
-        font-size: 1.2em;
-    }
-}
-
-@media (max-width: 992px) {
-        .accordion {
-        font-size: 0.8em;
-    }
-}
-
 #contenuto {
     border: 2px solid;
     margin-bottom: 30px;
+    border-radius: 30px;
 }
 
 #produttori {
@@ -418,13 +340,6 @@ select {
 #img-specifica {
     padding-top: 0px !important;
     margin-top: -10px;
-}
-
-/* media query mobile first */
-@media (min-width:992px) {
-    #prodottoni {
-        margin-top: 540px;
-    }
 }
 
 .noborder2 {
@@ -456,10 +371,12 @@ select {
     display: none;
 }
 
-
-.img-ricetta {
-    width: 100%;
-    height:100%;
+.cont-int-ricettario {
+    text-align: center;
+    text-align: center;
+    padding-top: 15px;
+    border: 1px solid;
+    
 }
 
 .show {
@@ -488,13 +405,22 @@ select {
     height: 100%;
 }
 
+#descrizione1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    height: 100%;
+    border-width: 2px !important;
+    border-color: black !important;
+}
+
 #descrizione2 {
     padding-left: 30px;
     padding-right: 30px;
     background-color: transparent;
-    border: 15px;
-    border-color:black;
     height: 100%;
+    border-width: 2px 2px 2px 0px !important;
+    border-color: black !important;
 }
 
 #icon1{
@@ -673,7 +599,3 @@ article {
 .login-help{
   font-size: 12px;
 }
-
-/*test*/
-
-

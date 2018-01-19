@@ -1,0 +1,76 @@
+@media (max-width: 1200px) {
+    .accordion {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 992px) {
+    .accordion {
+        font-size: 0.8em;
+    }
+    
+    #prodottoni {
+        margin-top: 540px;
+    }
+}
+
+
+@media (max-width:768px){
+    .mobile-icon{
+        float: left;
+        width: 33%;
+        text-align: center;
+    }
+    
+    #logo_fb, #logo_insta{
+        float: none;
+    }
+    
+    footer{
+        text-align: center;
+    }
+    
+    #menu_sx {
+        display: none;
+    }
+    
+    #invisibile2{
+        display: none;
+    }
+    
+    .cont-int2{
+        margin-top: 0px !important;
+    }
+    
+    .cont-int2{
+        margin-top: 0px !important;
+    }
+    
+    .nobordertop{
+        margin-bottom: 10px
+    }
+    
+    #spazio1{
+        border-width: 0px 2px 2px 2px !important;
+    } 
+}
+
+@media(min-width:768px){
+    .footer-destra{
+        float: right;
+    }
+    .paperino{
+        display: none;
+    }
+}
+
+@media (max-width:420px) {
+    .btn-group {
+        display: none;
+    }
+    
+    #contenuti {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

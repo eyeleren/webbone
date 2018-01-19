@@ -15,6 +15,7 @@
     <link href="../css/css/Ricette_specifiche.css" rel="stylesheet"> 
         <!-- Foglio css della pagina -->
     <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
 </head>
 <body>
@@ -219,12 +220,12 @@ Mescolate energicamente in modo che i sapori si amalgamino alla perfezione, quin
     <div class="col-sm-12 text-center bordertop" id="descrizione">
                     <form>
                         <label><h2 style="font-size:250%"> <i>Lascia un commento </i></h2></label><br>
-                        <label>Nome:</label> <br>
-                        <input type="text" name="Nome" placeholder="Nome"> <br>
+                        <label>Nome e Cognome:</label> <br>
+                        <input type="text" name="Nome" placeholder="Nome e Cognome"> <br>
                         <label>Commento:</label> <br>
                         <textarea name="message" rows="5" cols="47"></textarea><br><br>
                         <label>Valuta la ricetta:</label>
-                        <select name="stelle">
+                        <select name="stelle" style="width: 70px;">
                            <option value="1stella">1 stella</option>
                            <option value="2stelle">2 stelle</option>
                            <option value="3stelle">3 stelle</option>
@@ -244,7 +245,7 @@ Mescolate energicamente in modo che i sapori si amalgamino alla perfezione, quin
     
         <div class="row">
             
-        <div id="descrizione2" class="col-sm-6 border">
+        <div id="descrizione1" class="col-sm-6 border">
             
             <h1 style="font-size:180%">Che bomba!</h1>
             <div class="col-sm-4 noborder">
@@ -258,11 +259,11 @@ Mescolate energicamente in modo che i sapori si amalgamino alla perfezione, quin
             </div>
             <div class="col-sm-8 noborder">
                 <p>
-                    Ricetta particolare, ricca di gusto e sapore. Mediamente difficile da preparare ma, una volta masterata, veramente delish da presentare a tutti i presenti in tavola!
+                    Ricetta particolare, ricca di gusto e sapore. Mediamente difficile da preparare ma, una volta masterata, veramente delish da presentare a tutti i presenti a tavola!
                 </p>
             </div>
         </div>
-        <div id="descrizione2" class="col-sm-6 border">
+        <div id="descrizione2" class="col-sm-6">
             <h1 style="font-size:180%">Esplosione di gusto!</h1>
             <div class="col-sm-4 noborder">
                 <p>Francesco Favaro</p>
@@ -270,12 +271,12 @@ Mescolate energicamente in modo che i sapori si amalgamino alla perfezione, quin
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
+                <span class="fa fa-star checked"></span>
                 
             </div>
             <div class="col-sm-8 noborder">
                 <p>
-                    Mi sono allenato a preparare questo piatto qualche volta in famiglia e poi, una volta arrivato il gran giorno, l'ho presentato ai commensali e sono rimasti tutti a bocca aperta. Le carote peruviane sono un tocco di classe, parliamo di una ricetta al livello delle mine di Canavacciuolo
+                    Mi sono allenato a preparare questo piatto qualche volta in famiglia e poi, una volta arrivato il gran giorno, l'ho presentato ai commensali e sono rimasti tutti a bocca aperta.
                 </p>
             </div>
         </div>
@@ -349,21 +350,5 @@ Mescolate energicamente in modo che i sapori si amalgamino alla perfezione, quin
     
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.js"></script>
-        <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active-menusx");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight){
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                } 
-            });
-        }
-    </script>
-
+ 
 </html>
