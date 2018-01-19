@@ -33,7 +33,7 @@
     </button>
         
     <!-- Questo è il logo -->
-    <a href="Homepage.html"> <img src="../../../img\logo_unive.jpg" alt="logo univequo" style="height: 50px; width: 50px"> </a>
+    <a href="../../../Homepage.html"> <img src="../../../img\logo_unive.jpg" alt="logo univequo" style="height: 50px; width: 50px"> </a>
 
     </div>
     
@@ -208,35 +208,66 @@
                 </div>
             </div>
             
-            <div class="col-sm-10 contenuto-dx"> 
+            <div class="col-sm-10 col-xs-12 contenuto-dx"> 
                 <h1 style="text-align: center; font-size: 50px;"><strong>CAROTA</strong></h1>
-                <div class="col-sm-6 noborder">
-                    <div class="col-sm-10 noborder nopadding">
-                        <img class="immagine" src="../../../img/Carota.jpg" alt="immagine di una carota">  
+                <div class="col-sm-5 noborder">
+                    <div class="col-xs-12 noborder nopadding">
+                        <img class="immagine" src="../../../img/Carota22.jpg" alt="immagine di una carota">  
                     </div>
                 </div>
-                <div class="col-sm-6 noborder">
-                    <div id="descrizione" class="col-sm-12">
-                        <p>ifiefiefieifeii</p>
+                <div class="col-sm-offset-1 col-sm-6 noborder justify">
+                    <div class="col-xs-12 descrizione ">
+                        <p> La carota peruviana è una specialità del luogo coltivata a mano, da agricoltori locali che si tramandano metodi agricoli di padre in figlio da decenni.<br>
+                        Coltivate sotto il sole del Sud America, sono estratte rigorosamente a mano dal terreno dai peruviani di Bona Natura.
+                        <br>Scopri di più su <a href="../../../Produttori/Produttore1.html"> Bona Natura </a> e su tutti i loro prodotti!</p>
                     </div>
+                    <div class="col-xs-12 descrizione nobordertop" >
+                    
+                    <p> Seleziona la quantità:  
+                        
+                               <select id="select" name="quantità">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                       </p>
+                        
+                        <div class="noborder mouse">
+                            <img class="vertical" src="../../../img/BIO.png">
+                            <p class="mouseover"> Prodotto certificato da agricoltura biologica. </p>
+                        </div>
+                        <div class="noborder mouse">
+                            <img class="vertical" src="../../../img/gluten_free.png">
+                            <p class="mouseover"> Senza glutine.</p>
+                        </div>
+                        <div class="noborder mouse">
+                            <img class="vertical" src="../../../img/vegano.png">
+                            <p class="mouseover"> Non contiene alcun ingrediente di origine animale.</p>
+                        </div>
+                        </div>
                 </div>
                     
-                <div class="col-md-12 text-center bordertop"> 
+                <div class="col-xs-12 text-center bordertop"> 
+                     
                 <div class="btn" role="group">
                   <a href="../../../Carrello.html"><button  type="button" class="btn btn-default">Aggiungi al Carrello</button></a>
+                   
                     <button type="button" class="btn btn-default">Acquista subito</button>
                 </div>
                 </div>
                 
             <!-- Form Recensioni -->
-                <div class="col-sm-12 text-center bordertop">
+                <div class="col-xs-12 text-center bordertop">
                     <form>
                         <label><h1>Raccontaci la tua esperienza!</h1></label><br>
                         <label>Inserisci i tuoi dati:</label> <br>
                         <input type="text" name="Nome" placeholder="Nome">
                         <input type="text" name="Cognome" placeholder="Cognome"><br><br>
                         <label>Inserisci qui la tua recensione!</label> <br>
-                        <textarea name="message" rows="5" cols="47"></textarea><br><br>
+                        <textarea class="hidden-xs ciao" name="message" rows="5" cols="47"></textarea>
+                        <textarea class="visible-xs ciao" name="message" rows="5" cols="43"></textarea><br><br>
                         <label>Valuta infine il nostro prodotto</label>
                         <select name="stelle">
                            <option value="1stella">1 stella</option>
@@ -254,37 +285,35 @@
     </div>
     <div class="container">
         <div class="row">
-        <div id="spazio" class="col-sm-6 border">
-            <h1>Recensione #1</h1>
-            <div class="col-sm-4 noborder">
+        <div id="spazio" class="col-sm-6">
+            <h1>Qualità strepitosa!</h1>
+            <div class="col-sm-3 noborder">
                 <p>Lorenzo Cercato</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
+                <span class="fa fa-star checked"></span>
                 
             </div>
-            <div class="col-sm-8 noborder">
-                <p>Mi è piaciuto molto questo acquisto poichè è molto lunga e grossa.
-                   articolo molto versatile e dal facile utilizzo.
+            <div class="col-sm-9 noborder">
+                <p> Carote dalla eccelsa qualità! Soddisfatto dei certificati che Univequo garantisce! 4 Stelle al prodotto ed 1 sito per la velocità e l'efficenza della consegna; consigliatissimo!
                 </p>
             </div>
         </div>
-        <div id="spazio1" class="col-sm-6 border">
-            <h1>Recensione #1</h1>
-            <div class="col-sm-4 noborder">
-                <p>Lorenzo Cercato</p>
+        <div id="spazio1" class="col-sm-6">
+            <h1>Carote fantastiche</h1>
+            <div class="col-sm-3 noborder">
+                <p>Francesco Favaro</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
                 <span class="fa fa-star"></span>
                 
             </div>
-            <div class="col-sm-8 noborder">
-                <p>Mi è piaciuto molto questo acquisto poichè è molto lunga e grossa.
-                   articolo molto versatile e dal facile utilizzo.
+            <div class="col-sm-9 noborder">
+                <p> Soddisfatto dalla qualità del prodotto, non mi sento tuttavia di dare piu di 3 stelle per il prezzo. Sono consapevole siano carote peruviane, ma credo sia un po' alto per la quantità. 
                 </p>
             </div>
         </div>

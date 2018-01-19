@@ -24,6 +24,10 @@ body {
     }
 }
 
+.nobordertop {
+    border-top: 0px !important;
+}
+
 #logo_fb {
     float: right;
     display: block;
