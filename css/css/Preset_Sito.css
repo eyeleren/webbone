@@ -109,7 +109,7 @@ body {
 
 .outer {
     border: 2px solid !important;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 /*css per il form*/

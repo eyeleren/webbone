@@ -3,6 +3,7 @@
 #contenuti {    /* per le pagine con 3-4div prodotti*/
     margin-top: 15px;
     border: 3px solid;
+    border-radius: 30px;
     margin-left: 10px;
     padding-bottom: 35px;
     padding-top: 35px;
@@ -11,11 +12,15 @@
 #contenuti2 {    /* per le pagine con 5-6div prodotti*/
     margin-top: -15px;
     border: 3px solid;
+    border-radius: 30px;
     margin-left: 10px;
     padding-bottom: 35px;
     padding-top: 35px;
 }
 
+.indecisus{
+    margin-top: 200px;
+}
 
 
 .out{
@@ -26,6 +31,7 @@
 .cont-int {
     padding-top: 16px;
     border: 1px solid;
+    border-radius: 10px;
     width: 80%;
     height: 60px;
     margin: auto;
@@ -35,6 +41,7 @@
 .cont-int2 {    /* per le pagine con 3-4div prodotti*/
     padding-top: 16px;
     border: 1px solid;
+    border-radius: 10px;
     width: 80%;
     height: 60px;
     margin: auto;
@@ -44,6 +51,7 @@
 .cont-int3 {    /* per le pagine con 5-6div prodotti*/
     padding-top: 16px;
     border: 1px solid;
+    border-radius: 10px;
     width: 80%;
     height: 60px;
     margin: auto;
