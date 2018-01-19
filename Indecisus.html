@@ -1,21 +1,23 @@
 <!doctype html>
-<html>
-<head>
+<html lang="it">
+    <head>
     <!-- Viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Tag Meta-->
     <title>UnivEquo</title>
-    <meta name="description" content="Chi_Siamo">
+    <meta name="description" content="Indecisus"> <!-- Nome della pagina -->
     <meta name="author" content="Gruppone Webbone">
     
     <!-- CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/css/Preset_Sito.css" rel="stylesheet">
-    <link href="css/css/Chi_Siamo.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">  
+    <link href="css/css/carrello.css" rel="stylesheet"> <!-- Foglio css della pagina -->
+    <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
+        
 </head>
 <body>
+    
     <!-- Nav Bar -->
 
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -51,7 +53,7 @@
         <li>
             <a href="Social.html">Social</a>   
         </li>
-        <li class="active">
+        <li>
             <a href="Chi_Siamo.html">Chi siamo</a>
         </li>
     </ul>
@@ -73,10 +75,10 @@
     </li>
 
     <li class="mobile-icon">   
-    <a data-toggle="modal" data-target="#Login"><i class="glyphicon glyphicon-user"></i></a> 
+    <a href="Homepage.html"><i class="glyphicon glyphicon-log-out"></i></a> 
     
     </li>
-    <li class="mobile-icon">
+    <li class="mobile-icon active">
     <a href="Indecisus.html"><i class="glyphicon glyphicon-log-in"></i></a>
         
     </li>
@@ -87,64 +89,32 @@
         </div><!-- /.container-fluid -->
         
     </nav>
-
+    <!-- Stampo per le pagine -->
+    
     <!-- Path -->
     <ol class="breadcrumb">
          <li>
              <a href="Homepage.html">Home</a>
          </li>
-         <li class="active">Chi Siamo</li>
-    </ol>
+         <li class="active">Area Privata</li>
+    </ol>    
     
-    
-    <!-- Immagine della pagine-->
-    <div>
-    <img src="img/Img_Chi_Siamo2.jpg" class="img-responsive">
-    </div>
-    
-
-    <!-- Storia della pagina -->
-    <div id="storia" class="container">
+    <!-- CONTENUTO -->
+    <div class="container">
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                <p>
-                    Nato come semplice progetto universitario dalla collaborazione di un gruppo di studenti, 
-                    viene successivamente ripreso e migliorato al fine di diventare un punto di riferimento 
-                    per il mondo del commercio equo & solidale. <br> 
-                    Con il proposito di investire e valorizzare le piccole imprese, che altrimenti non riuscirebbero 
-                    a farsi strada nel mercato ormai dominato dalle grandi multinazionali, la Gruppone Wolfone 
-                    Company accoglie sotto il proprio marchio, registrato Wolf&reg, molteplici produttori, così 
-                    da proporli su un mercato ben più ampio. <br>
-                    La Gruppone Wolfone Company garantisce inoltre dal lato consumatore un elevato livello di
-                    qualità, senza perdere di vista i propri doveri, assicurando totale trasparenza e tutela 
-                    nei confronti dei produttori.
-                </p>
+            <div class="text-center">
+            <h1>Benvenuto nella tua Area Privata</h1>
+                <div class="col-sm-6 noborder">
+                    <h2><strong>Sei un privato?</strong></h2>
+                    <a href="Carrello.html"><img src="img/privato.png" class="immagine"></a></div>
+                <div class="col-sm-6 noborder">
+                    <h2><strong>Sei un'azienda?</strong></h2>
+                <a href="LoginAzienda.html"><img src="img/azienda.jpg" class="immagine"></a>
+                </div>
             </div>
         </div>
-    </div>    
-    
-    <!-- Form per il Login -->
-    
-    
-    <div id="Login" class="modal fade" tabindex="-1" role="dialog"aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    	  <div class="modal-dialog">
-				<div class="loginmodal-container">
-					<legend>Accedi al tuo Account</legend><br>
-				  <form>
-					<input type="text" name="user" placeholder="Username">
-					<input type="password" name="pass" placeholder="Password">
-					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
-				  </form>
-					
-				  <div class="login-help">
-					<a href="Registrazione.html">Registrati</a> - <a href="#">Password Dimentica</a>
-				  </div>
-				</div>
-			</div>
-		  </div>
-    
-   <!--- Social Bar --->
-    
+    </div>
+    <!--- Social Bar --->
     <div class="container">
     <div id="social-bar" class="row text-center">
         <div id="div_fb" class="col-sm-2"> 
@@ -155,7 +125,7 @@
 
         </div>
         <div id="newsletter" class="col-sm-8 align-middle">
-        <h2>Newsletter</h2>
+        <h3>Newsletter</h3>
         <form action="" method="post">
         <div class="input-prepend">
         <span class="add-on"><i class="icon-envelope"></i></span>
@@ -178,12 +148,12 @@
         
         </div>
     </footer>
-
-</body>
+    </body>
     
-       <!-- Script --->
+    <!-- Script --->
     
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-
+    <script src="js/scroll.js"></script>
+    
 </html>
