@@ -33,7 +33,7 @@
     </button>
         
     <!-- Questo è il logo -->
-    <a href="Homepage.html"> <img src="../../../img\logo_unive.jpg" alt="logo univequo" style="height: 50px; width: 50px"> </a>
+    <a href="../../../Homepage.html"> <img src="../../../img\logo_unive.jpg" alt="logo univequo" style="height: 50px; width: 50px"> </a>
     </div>
     
     <!--  -->
@@ -114,6 +114,10 @@
         <img src="../../../img/Prodotti2.jpeg" class="img-responsive">
     </div>
     -->
+    
+    
+    
+    
     <!-- Cose -->
     <div id="prodotto-spec" class="container">
         <div class="row">
@@ -207,26 +211,79 @@
                 </div>
             </div>
             
-            <div class="col-sm-9 contenuto-dx"> 
+            <!-- serious business -->
+            
+            
+            <div class="col-sm-9 col-xs-12 contenuto-dx"> 
                 <h1 style="text-align: center; font-size: 50px;"><strong>T-SHIRT</strong></h1>
-                <div class="col-sm-6 noborder">
-                    <div class="col-sm-10 noborder nopadding">
+                <div class="col-sm-5 noborder">
+                    <div class="col-xs-12 noborder nopadding">
                         <img class="immagine" alt="immagine di una t-shirt nera" src="../../../img/T-shirt.jpg">  
                     </div>
                 </div>
-                <div class="col-sm-6 noborder">
-                    <div id="descrizione" class="col-sm-12">
-                        <p>ifiefiefieifeii</p>
+                
+                
+             <div class="col-sm-offset-1 col-sm-6 noborder justify">
+                    <div class="col-xs-12 descrizione ">
+                        <p> La nostra eco T-Shirt è una maglietta tessuta in concia al vegetale. Si tratta di un antico procedimento naturale di lavorazione delle pelli che utilizza i tannini delle piante. <br> Morbida al tatto, resistente ai lavaggi e si adatta a chi la indossa. <br>
+                            Scopri altri design accattivanti su <a href="../../../Homepage.html"> Univequo </a> e tutti i nostri altri prodotti!
+
                     </div>
-                </div>
+                    <div class="col-xs-12 descrizione nobordertop" >
                     
-                <div class="col-md-12 text-center bordertop"> 
+                    <p> Seleziona la quantità:  
+                        
+                               <select id="select" name="quantità">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                       </p>
+                    
+                    <p> Seleziona la taglia:  
+                        
+                               <select id="select" name="quantità">
+                                <option value="1">XS</option>
+                                <option value="2">S</option>
+                                <option value="3">M</option>
+                                <option value="4">L</option>
+                                <option value="5">XL</option>
+                                <option value="5">XXL</option>
+                            </select>
+                       </p>
+                        
+                        <div class="noborder mouse">
+                            <img class="vertical" id="malaria" src="../../../img/concia.png">
+                            <p class="mouseover"> Concia Vegetale. </p>
+                        </div>
+                        <div class="noborder mouse">
+                            <img class="vertical" id="hover" src="../../../img/amano.png">
+                            <p class="mouseover"> Accessorio realizzato interamente a mano da esperti artigiani.</p>
+                        </div>
+                        <div class="noborder mouse">
+                            <img class="vertical" id="hover" src="../../../img/notossico.png">
+                            <p class="mouseover"> Capo tinto mediante colori atossici.</p>
+                        </div>
+                        </div>
+                 <!-- le immagini qui sono una merda non capisco come si fixino, c'è hover nel preset e nelle media query -->
+                 
+                </div>
+                
+               <div class="col-xs-12 text-center bordertop"> 
+                     
                 <div class="btn" role="group">
-                    <a href="../../../Carrello.html"><button type="button" class="btn btn-default">Aggiungi al Carrello</button></a>
+                  <a href="../../../Carrello.html"><button  type="button" class="btn btn-default">Aggiungi al Carrello</button></a>
+                   
                     <button type="button" class="btn btn-default">Acquista subito</button>
                 </div>
                 </div>
-                
+                     
+                    
+                    
+                    
+                    
             <!-- Form Recensioni -->
                 <div class="col-sm-12 text-center bordertop">
                     <form>
@@ -254,24 +311,23 @@
     <div class="container">
         <div class="row">
         <div id="spazio" class="col-sm-6 border">
-            <h1>Recensione #1</h1>
+            <h1>Consigliatissma</h1>
             <div class="col-sm-4 noborder">
-                <p>Lorenzo Cercato</p>
+                <p>Simone Zanon </p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
+                <span class="fa fa-star checked"></span>
                 
             </div>
             <div class="col-sm-8 noborder">
-                <p>Mi è piaciuto molto questo acquisto poichè è molto lunga e grossa.
-                   articolo molto versatile e dal facile utilizzo.
+                <p>Assolutamente 5 stelle senza neanche metterle in discussione e vi spiego perchè: qualità eccelsa, hand-made, consegna univequo...tutto OTTIMO!
                 </p>
             </div>
         </div>
         <div id="spazio1" class="col-sm-6 border">
-            <h1>Recensione #1</h1>
+            <h1>Grande tessuto, brutto design</h1>
             <div class="col-sm-4 noborder">
                 <p>Lorenzo Cercato</p>
                 <span class="fa fa-star checked"></span>
@@ -282,13 +338,14 @@
                 
             </div>
             <div class="col-sm-8 noborder">
-                <p>Mi è piaciuto molto questo acquisto poichè è molto lunga e grossa.
-                   articolo molto versatile e dal facile utilizzo.
+                <p>Capo comodo da indossare, 4 stelle e non 5 per il design non molto accattivante. Ho preso piu taglie per anche i miei famigliari e devo dire che vestono bene! 
                 </p>
             </div>
         </div>
         </div>
     </div>
+    
+    
     <!--- Social Bar --->
     <div class="container">
     <div id="social-bar" class="row text-center">

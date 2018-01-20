@@ -26,6 +26,10 @@
         float: none;
     }
     
+    #hover {
+        width: auto;
+    }
+    
     footer{
         text-align: center;
     }
@@ -65,8 +69,13 @@
 }
 
 @media (max-width:420px) {
+    
     .btn-group {
         display: none;
+    }
+    
+    #hover {
+        width: 90%;
     }
     
     #contenuti {

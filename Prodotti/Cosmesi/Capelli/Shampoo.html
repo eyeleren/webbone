@@ -33,7 +33,7 @@
     </button>
         
     <!-- Questo è il logo -->
-    <a href="Homepage.html"> <img src="../../../img/logo_unive.jpg" alt="logo univequo" style="height: 50px; width: 50px"> </a>
+    <a href="../../../Homepage.html"> <img src="../../../img/logo_unive.jpg" alt="logo univequo" style="height: 50px; width: 50px"> </a>
 
     </div>
     
@@ -208,25 +208,72 @@
                 </div>
             </div>
             
-            <div class="col-sm-9 contenuto-dx"> 
+            <!-- Serious Business -->
+            
+            
+         <div class="col-sm-9 col-xs-12 contenuto-dx"> 
                 <h1 style="text-align: center; font-size: 50px;"><strong>SHAMPOO</strong></h1>
-                <div class="col-sm-6 noborder">
-                    <div class="col-sm-10 noborder nopadding">
-                        <img class="immagine" src="../../../img/Shampoo.jpg" alt="immagine di shampoo" >  
+                <div class="col-sm-5 noborder">
+                    <div class="col-xs-12 noborder nopadding">
+                        <img class="immagine" alt="immagine di uno shampoo" src="../../../img/Shampoo.jpg">  
                     </div>
                 </div>
-                <div class="col-sm-6 noborder">
-                    <div id="descrizione" class="col-sm-12">
-                        <p>ifiefiefieifeii</p>
+                
+                
+            <!-- --> 
+            
+             
+             <div class="col-sm-offset-1 col-sm-6 noborder justify">
+                    <div class="col-xs-12 descrizione ">
+                        <p> Uno shampoo in crema per detergere delicatamente i capelli senza danneggiarli.<br>
+                            Burro di karité e olio di mandorle rendono questo shampoo ideale per donare nutrimento e morbidezza a capelli crespi e sfibrati, restituendogli forza e vitalità 
+                            Scopri altri altri prodotti su <a href="../../../Homepage.html"> Univequo </a>! 
+
                     </div>
-                </div>
+                    <div class="col-xs-12 descrizione nobordertop" >
                     
-                <div class="col-md-12 text-center bordertop"> 
+                    <p> Seleziona la quantità:  
+                        
+                               <select id="select" name="quantità">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                       </p>
+                        
+                        <div class="noborder mouse">
+                            <img class="vertical" id="hover" src="../../../img/riciclo.png">
+                            <p class="mouseover"> La confezione di questo prodotto è riciclabile. </p>
+                        </div>
+                        <div class="noborder mouse">
+                            <img class="vertical" id="hover"  src="../../../img/favaro.png">
+                            <p class="mouseover"> Non testato sugli animali, come previsto dal Regolamente Europeo 1223/209 sui cosmetici.</p>
+                        </div>
+                        <div class="noborder mouse">
+                            <img class="vertical" id="hover" src="../../../img/cosmesibio.png">
+                            <p class="mouseover"> Prodotto certificato secondo i rigorosi criteri CCPB o Natrue, standard internazionale che garantisce naturalità, elementi biologici e rispetta l'ambiente.</p>
+                        </div>
+                        </div>
+                 
+                 
+                 <!-- le immagini qui sono una merda non capisco come si fixino, c'è hover nel preset e nelle media query -->
+                 
+                </div>
+                
+               <div class="col-xs-12 text-center bordertop"> 
+                     
                 <div class="btn" role="group">
-                    <a href="../../../Carrello.html"><button type="button" class="btn btn-default">Aggiungi al Carrello</button></a>
+                  <a href="../../../Carrello.html"><button  type="button" class="btn btn-default">Aggiungi al Carrello</button></a>
+                   
                     <button type="button" class="btn btn-default">Acquista subito</button>
                 </div>
                 </div>
+                
+                
+                
+                
                 
             <!-- Form Recensioni -->
                 <div class="col-sm-12 text-center bordertop">
@@ -255,26 +302,25 @@
     <div class="container">
         <div class="row">
         <div id="spazio" class="col-sm-6 border">
-            <h1>Recensione #1</h1>
+            <h1>Formidabile</h1>
             <div class="col-sm-4 noborder">
-                <p>Lorenzo Cercato</p>
+                <p>Luisella</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
+                <span class="fa fa-star checked"></span>
                 
             </div>
             <div class="col-sm-8 noborder">
-                <p>Mi è piaciuto molto questo acquisto poichè è molto lunga e grossa.
-                   articolo molto versatile e dal facile utilizzo.
+                <p> Mi sono ritrovata in un viaggio senza il balsamo e con solo questo prodotto ed è stato una vera rivelazione tanto che ho deciso di acquistarne un sacco di flaconi. Eccelso e consigliatissimo!
                 </p>
             </div>
         </div>
         <div id="spazio1" class="col-sm-6 border">
-            <h1>Recensione #1</h1>
+            <h1>Mi ha stupita</h1>
             <div class="col-sm-4 noborder">
-                <p>Lorenzo Cercato</p>
+                <p>Gianna Giananini</p>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -283,8 +329,7 @@
                 
             </div>
             <div class="col-sm-8 noborder">
-                <p>Mi è piaciuto molto questo acquisto poichè è molto lunga e grossa.
-                   articolo molto versatile e dal facile utilizzo.
+                <p> Shampoo particolare, bio, che dona ai capelli una sensazione al tatto di liscio perfetto, che raramente gli shampi 100% biologici sanno donare ai capelli! Consigliato
                 </p>
             </div>
         </div>

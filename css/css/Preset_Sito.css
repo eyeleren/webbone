@@ -127,8 +127,17 @@ h2 {
     margin: 0px !important;
 }
 
+
 select {
-    width: 40px;
+    width: auto;
+}
+
+#hover {
+    width: 40%;
+}
+
+#malaria {
+    width:auto;
 }
 
 #storia {
