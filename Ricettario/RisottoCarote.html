@@ -14,6 +14,7 @@
     <link href="../css/css/Preset_Sito.css" rel="stylesheet">
     <link href="../css/css/Ricette_specifiche.css" rel="stylesheet"> 
     <link href="../css/css/print.css" rel="stylesheet">
+    <link href="../css/css/media-query.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/3.3/examples/grid/grid.css" rel="stylesheet">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
@@ -110,7 +111,7 @@
     <h1 class="text-center">Risotto di Carote</h1>
         <div id="stessa-altezza" class="row text-justify">
       <div id="img-specifica" class="col-sm-6">
-          <img id="logo_carota" src="../img/Risotto_Carota1.jpg" alt="Risotto di carote">
+          <img class="img-responsive" src="../img/Risotto_Carota1.jpg" alt="Risotto di carote">
       </div>
             
     <!-- Immaginine Illustrative -->        
@@ -198,7 +199,7 @@
     <div class="col-sm-12" id="lineetta"></div>   
         
     <div class="col-sm-12" id="descrizione">    
-    <h2 class="text-center"> <i>Preparazione</i> </h2>
+    <h2 class="text-center"> Preparazione </h2><br>
         <p class="text-center"> Preparate il brodo vegetale, dopodichè pulite le carote e sciacquatele sotto l’acqua corrente, quindi grattugiatele con una grattuggia a fori larghi. Mettetele da parte e nel frattempo tritate la cipolla finemente. Fate scaldate l’olio extravergine d’oliva in un tegame, quindi unite il trito di cipolla. Non appena la cipolla sarà appassita, unire le carote.
         Far insaporire il tutto per qualche minuto, quindi unite il riso e fatelo tostare. Non appena il riso sarà ben tostato, unite le carote grattugiate e sfumate il tutto con del vino bianco e lasciatelo evaporare. A questo punto unite il brodo vegetale e aggiungetene tanto quanto basta per portare il riso a cottura. Vi occorreranno circa 18-20 minuti a fiamma bassa.
         Trascorso questo tempo, regolate di sale e pepe e mescolate molto bene. Assaggiate il riso e se dovesse risultare ancora un pò indietro di cottura unite del brodo vegetale. Se, al contrario, risulta essere cotto spegnete il fuoco e procedete con la mantecatura. Unite quindi il burro e il parmigiano grattugiato.
@@ -214,7 +215,7 @@
                         <label>Nome e Cognome:</label> <br>
                         <input type="text" name="Nome" placeholder="Nome e Cognome"> <br>
                         <label>Commento:</label> <br>
-                        <textarea name="message" rows="5" cols="47"></textarea><br><br>
+                        <textarea class="wid" name="message" rows="5"></textarea><br><br>
                         <label>Valuta la ricetta:</label>
                         <select name="stelle" style="width: 70px;">
                            <option value="1stella">1 stella</option>
