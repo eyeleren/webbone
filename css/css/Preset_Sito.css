@@ -493,12 +493,18 @@ article {
 }
 
 #search-pro {
-    width: 300px;
+    width: 100%;
     height: 30px
 }
 
-#select1, #select2 {
+#select1 {
     height: 30px;
+    width: 100%;
+}
+
+#select2 {
+    height: 30px;
+    width: 70%;
 }
 
 .dotted {
@@ -508,14 +514,6 @@ article {
     border-bottom: 0px !important;
 }
 
-
-#bottone-pro {
-    position: relative;
-    top: 0px;
-    left: 150px;
-    height: 30px;
-                    
-}
 
 .img-specifica {
     margin-top:100px;
