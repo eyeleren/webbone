@@ -232,7 +232,7 @@ select {
     width: 100%;
     text-align: center;
     outline: none;
-    font-size: 20px;
+    font-size: 20px !important;
     transition: 0.4s;
 
 }

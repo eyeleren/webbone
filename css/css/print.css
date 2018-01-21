@@ -24,4 +24,8 @@
         overflow-y: hidden;
         height: 100%;
     }
+    
+    #recensione {
+        display: none !important;
+    }
 }
