@@ -1,0 +1,14 @@
+@media print {
+    /* Homepage */
+    #myCarousel {
+        display: none !important;
+    }
+    
+    .immagine {
+        display: none !important;
+    }
+    
+    .img-responsive {
+        display: none !important;
+    }
+}
