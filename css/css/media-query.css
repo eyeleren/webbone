@@ -1,13 +1,8 @@
 @media (max-width: 1200px) {
-    .accordion {
-        font-size: 1.2em;
-    }
-}
+  
 
 @media (min-width: 992px) {
-    .accordion {
-        font-size: 0.8em;
-    }
+ 
     
     #prodottoni {
         margin-top: 540px;
@@ -68,6 +63,14 @@
     }
     .paperino{
         display: none;
+    }
+    
+    #display-none{
+        display: none;
+        
+    }
+    .accordion {
+        font-size: 15px;
     }
 }
 
