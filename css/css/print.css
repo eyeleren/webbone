@@ -1,0 +1,27 @@
+@media print {
+    /* Homepage */
+    #myCarousel {
+        display: none !important;
+    }
+    
+    .immagine {
+        display: none !important;
+    }
+    
+    .img-responsive {
+        display: none !important;
+    }
+    
+    #display-none {
+        display: none !important;
+    }
+    
+    #myBtnContainer {
+        display: none !important;
+    }
+    
+    #contenutiscroll {
+        overflow-y: hidden;
+        height: 100%;
+    }
+}
