@@ -132,7 +132,7 @@ select {
     width: auto;
 }
 
-#hover {
+.hover {
     width: 40%;
 }
 
@@ -330,6 +330,10 @@ select {
     float: left;
         width: 33%;
         text-align: center;
+}
+
+.mouse2{
+    width: 50%;
 }
 
 #contenuto {

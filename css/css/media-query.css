@@ -15,19 +15,19 @@
 }
 
 
-@media (max-width:768px){
+@media (max-width:767px){
     .mobile-icon{
         float: left;
         width: 33%;
         text-align: center;
     }
     
-    #logo_fb, #logo_insta{
-        float: none;
+    .contenuto-dx, #contenutidiv, #contenuti2{
+        margin: 0px;
     }
     
-    #hover {
-        width: auto;
+    #logo_fb, #logo_insta{
+        float: none;
     }
     
     footer{
@@ -74,10 +74,7 @@
         display: none;
     }
     
-    #hover {
-        width: 90%;
-    }
-    
+
     #contenuti {
         margin-top: 10px;
         margin-bottom: 10px;
