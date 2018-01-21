@@ -118,5 +118,8 @@
     .wid{
         width: 90%;
     }
+    #display-none-print {
+        display:none;
+    }
     
 }
